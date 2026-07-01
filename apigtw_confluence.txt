@@ -1,0 +1,284 @@
+Skip to sidebar
+Skip to main content
+Skip to breadcrumbs
+Skip to search
+Linked Applications
+CITnet Confluence
+Spaces
+People
+Calendars
+Analytics
+Create
+Help
+5
+
+
+	
+API Gateway
+Pages
+Boards
+Calendars
+Analytics
+SPACE SHORTCUTS
+
+Here you can add shortcut links to the most important content for your team or project. Configure sidebar.
+
+PAGE TREE
+🎞 API Gateway: Full tour videos
+APIGTW Customers' space
+APIGTW Team's space
+ConfigureSpace tools
+ Edit
+ View inline comments
+ Save for later
+ Watch
+ Share
+
+API Gateway in DIGIT Service Catalogue
+
+	
+Reusable Solutions Platform Overview
+
+Welcome
+ 
+API Gateway  Wiki
+
+The API Gateway service allows you to expose microservices as APIs to intranet or internet securely.
+
+The Gateway offers an added layer of security and multiple useful utilities such as:
+
+ - API protection with tokens
+ - API lifecycle management
+ - API versioning
+ - API traffic management & throttling
+ - API analytics
+ - API management automation
+ - No hassle API publication with OpenAPI or WSDL or manually
+ - Store of APIs to reuse
+
+This service is based on the open source project WSO2 API Gateway, in a distributed deployment with custom components.
+
+
+
+
+
+
+
+🎞️ Getting Started with API Gateway     🗒️ Release Notes     📖 API Gateway Documentation     
+📜 Governance     💼 For Business Users    🧑‍💻 For Developers    📐 Make your APIs compliant
+❓Frequently Asked Questions   🚧 Planned Maintenance and critical periods  
+🎞 API Gateway: Full tour videos  ❓ Get support
+
+Old Home page
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+New to API Gateway?
+
+ 
+
+
+
+
+
+API Gateway customers' space:
+
+🔧 Request API Gateway Service
+💼 For Business Users
+🧑‍💻 For Developers
+
+API Gateway team's space:
+
+Project Management
+Technical Information
+Operations
+	
+
+
+
+
+Get help:
+
+Write us to Get support
+
+
+	
+
+     
+
+Video Demo
+What is the API Gateway ? (< 5 mins)
+
+Request access to the API Gateway's Publisher and DevPortal consoles (< 5 mins)
+Create an application on the DevPortal (< 5 mins)
+Create and publish a REST API (< 5 mins)
+Create and publish a SOAP service (< 5 mins)
+Create and publish a WebSocket (< 5 mins)
+Authenticating with EULogin through (< 5 mins)
+In-depth technical overview of the API Gateway ( < 1 hour)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current customers
+
+ 
+
+
+
+
+
+
+
+
+	
+Our Product
+
+API Publisher
+API DevPortal (ex Store)
+AccessTokenFilter (securing java backends)
+SuperAPI (automate your APIs management)
+	
+
+
+
+
+	
+Our Customers
+
+Already on-boarded
+
+DG BUDG
+
+EC Search
+Compass Corporate
+AGRI
+eProcurement
+eGrant
+Sedia
+...
+	
+
+
+
+
+	
+Our Way-of-Working
+
+Want to have a short onboarding session?
+Write us to Get support.
+
+Check out our release notes.
+
+Any other question?
+Check our ❓Frequently Asked Questions
+
+	
+
+
+
+
+Keep in touch with the API Gateway team
+
+ 
+
+
+
+
+
+
+
+
+Explore
+
+API Gateway DIGIT Service Catalogue
+
+API Gateway RSP Portal
+
+	
+
+
+
+
+Explore
+
+API Gateway MS Teams
+
+	
+
+
+
+
+Explore
+
+API Gateway Functional mailbox
+
+Upcoming Events
+
+Today
+Previous
+Next
+Thursday, Jun 25, 2026
+Subscribe
+Add Event
+
+
+
+
+
+
+
+	
+
+Recently Updated
+
+RUIZ RUIZ Miguel
+Monitor and Control MwP CC APIs into Consul updated yesterday at 16:44  view change
+Emilie BILLOIS
+API Gateway - Release notes updated Jun 23, 2026  view change
+RUIZ RUIZ Miguel
+Monitor MwP exercise to Register in CONSUL Exercise updated Jun 23, 2026  view change
+image-2026-6-23_10-29-19.png attached Jun 23, 2026
+image-2026-6-23_10-29-16.png attached Jun 23, 2026
+image-2026-6-23_10-29-11.png attached Jun 23, 2026
+image-2026-6-23_10-27-50.png attached Jun 23, 2026
+image-2026-6-23_10-27-47.png attached Jun 23, 2026
+image-2026-6-23_10-27-43.png attached Jun 23, 2026
+image-2026-6-23_10-26-28.png attached Jun 23, 2026
+Show More
+
+
+
+
+
+
+
+Like
+DE BUCK Paul likes this
+No labels
+Edit Labels
+
+Write a comment...
+Powered by Atlassian Confluence 9.2.21 Legal Notice About this site Contact
+Atlassian

@@ -1,0 +1,8 @@
+﻿
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=ITIC,OU=User Accounts,DC=welcome,DC=ec,DC=europa,DC=eu
+
+
+

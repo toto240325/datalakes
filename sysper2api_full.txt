@@ -1,0 +1,86 @@
+APIs
+Applications
+Environment
+All
+Production
+Prototyped
+person
+ECLDAPSERVER/DERRUER
+
+Overview
+
+Subscriptions
+
+Try Out
+
+Comments
+
+Documentation
+
+SDKs
+
+Overview
+Sysper2API
+
+Overview
+
+Sy
+Sysper2API
+
+Version
+
+1.0.0
+
+By
+
+CHRONIS Takis
+
+URL
+file_copy
+TRY OUT
+( Default Version ) https://api.tech.ec.europa.eu/SYSPER2/api
+file_copy
+Business Plans
+
+Bronze
+
+1000
+
+Requests/min
+
+Comments
+Write A New Comment
+No Comments Yet
+
+No comments available for this API yet
+
+Not Rated
+
+Rate This
+
+Tags
+
+sysper2
+pmo
+erights
+pmomobile
+HRT
+sysper
+
+Business Info
+
+Panagiotis.CHRONIS@ec.europa.eu
+
+Source
+Download Swagger
+Additonal properties
+
+GovISSeqNo : IS-238
+
+Project : SYSPER
+
+IS : SYSPER
+
+DG : DIGIT
+
+WSO2 API-M v4.1.0 | © 2022 WSO2 Inc

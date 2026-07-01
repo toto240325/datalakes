@@ -1,0 +1,49 @@
+﻿
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=ITIC,OU=User 
+                    Accounts,DC=welcome,DC=ec,DC=europa,DC=eu
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=DisabledAccounts,OU=Functional Mailboxes,OU
+                    =ExchangeObjects,DC=welcome,DC=ec,DC=europa,DC=eu
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=DWP15,OU=User 
+                    Accounts,DC=welcome,DC=ec,DC=europa,DC=eu
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=Orgs,OU=ITIC,OU=Security 
+                    Groups,OU=Groups,DC=welcome,DC=ec,DC=europa,DC=eu
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=EnabledAccounts,OU=Functional Mailboxes,OU=
+                    ExchangeObjects,DC=welcome,DC=ec,DC=europa,DC=eu
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=Distribution Lists,OU=ExchangeObjects,DC=we
+                    lcome,DC=ec,DC=europa,DC=eu
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=Orgs,OU=DWP15,OU=Security 
+                    Groups,OU=Groups,DC=welcome,DC=ec,DC=europa,DC=eu
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=Res,OU=ITIC,OU=Security 
+                    Groups,OU=Groups,DC=welcome,DC=ec,DC=europa,DC=eu
+
+Name              : DIGIT
+Description       : 
+DistinguishedName : OU=DIGIT,OU=Role,OU=ITIC,OU=Security 
+                    Groups,OU=Groups,DC=welcome,DC=ec,DC=europa,DC=eu
+
+
+

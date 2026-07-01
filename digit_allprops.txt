@@ -1,0 +1,243 @@
+﻿
+
+AccountExpirationDate                : 
+accountExpires                       : 9223372036854775807
+AccountLockoutTime                   : 
+AccountNotDelegated                  : False
+AllowReversiblePasswordEncryption    : False
+AuthenticationPolicy                 : {}
+AuthenticationPolicySilo             : {}
+BadLogonCount                        : 1
+badPasswordTime                      : 134264674781728225
+badPwdCount                          : 1
+CannotChangePassword                 : False
+CanonicalName                        : welcome.ec.europa.eu/User Accounts/ITIC/DIGIT/BUHR Carl-Christian (DIGIT) - buhrbbu
+Certificates                         : {System.Security.Cryptography.X509Certificates.X509Certificate}
+City                                 : BRU
+CN                                   : BUHR Carl-Christian (DIGIT) - buhrbbu
+co                                   : BE
+codePage                             : 0
+Company                              : EC-DIGIT
+CompoundIdentitySupported            : {}
+Country                              : 
+countryCode                          : 0
+Created                              : 10/15/2021 11:55:38 AM
+createTimeStamp                      : 10/15/2021 11:55:38 AM
+Deleted                              : 
+deletedItemFlags                     : 0
+Department                           : DIGIT.A
+Description                          : Internal Transfer by: ci-ursulan 03/03/2020 11:55:34
+DisplayName                          : BUHR Carl-Christian (DIGIT)
+displayNamePrintable                 : BUHR Carl-Christian
+DistinguishedName                    : CN=BUHR Carl-Christian (DIGIT) - buhrbbu,OU=DIGIT,OU=ITIC,OU=User Accounts,DC=welcome,DC=ec,DC=europa,DC=eu
+Division                             : 
+dLMemDefault                         : 1
+DoesNotRequirePreAuth                : False
+dSCorePropagationData                : {1/1/1601 1:00:00 AM}
+EmailAddress                         : Carl-Christian.BUHR@ec.europa.eu
+EmployeeID                           : 
+EmployeeNumber                       : 00161553
+employeeType                         : O
+Enabled                              : True
+extensionAttribute1                  : 50
+extensionAttribute11                 : F
+extensionAttribute12                 : 19
+extensionAttribute13                 : <mps UCC='SkypeCollab-Teams' />
+extensionAttribute4                  : Migration completed on: 29/09/2022
+extensionAttribute5                  : 24
+extensionAttribute6                  : L107
+extensionAttribute7                  : 11
+extensionAttribute8                  : 00161553
+extensionAttribute9                  : FP
+Fax                                  : 
+garbageCollPeriod                    : 7776000
+GivenName                            : Carl-Christian
+HomeDirectory                        : 
+HomedirRequired                      : False
+HomeDrive                            : 
+homeMDB                              : CN=D-1179,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=CEC,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int
+HomePage                             : 
+HomePhone                            : 
+Initials                             : 
+instanceType                         : 4
+isDeleted                            : 
+KerberosEncryptionType               : {}
+l                                    : BRU
+LastBadPasswordAttempt               : 6/21/2026 12:17:58 AM
+LastKnownParent                      : 
+lastLogon                            : 134263539649323819
+LastLogonDate                        : 6/15/2026 11:31:17 AM
+lastLogonTimestamp                   : 134259894771784736
+legacyExchangeDN                     : /o=CEC/ou=CMS/cn=Recipients/cn=buhrbbu
+LockedOut                            : False
+lockoutTime                          : 0
+logonCount                           : 351
+LogonWorkstations                    : 
+mail                                 : Carl-Christian.BUHR@ec.europa.eu
+mailNickname                         : buhrbbu
+Manager                              : 
+mDBOverHardQuotaLimit                : 55050240
+mDBOverQuotaLimit                    : 54525952
+mDBStorageQuota                      : 54421095
+mDBUseDefaults                       : False
+MemberOf                             : {CN=EC HR AI SURVEY 26 DL,OU=HR,OU=Distribution Lists,OU=ExchangeObjects,DC=welcome,DC=ec,DC=europa,DC=eu, CN=EC ESTAT HH SURVEY 26 DL,OU=HR,OU=Distribution Lists,OU=ExchangeObjects,DC=welcome,DC=ec,DC=europa,DC=eu, 
+                                       CN=CI-RES-PUBLIC-Governance_Dashboard-DIGIT_a-DeletionRe,OU=RES,OU=Groups,OU=CI Services,DC=net1,DC=cec,DC=eu,DC=int, CN=CI-RES-PUBLIC-Governance_Dashboard-DIGIT_a-RO,OU=RES,OU=Groups,OU=CI Services,DC=net1,DC=cec,DC=eu,DC=int...}
+MNSLogonAccount                      : False
+mobile                               : +32 460794799
+MobilePhone                          : +32 460794799
+Modified                             : 6/24/2026 5:17:53 PM
+modifyTimeStamp                      : 6/24/2026 5:17:53 PM
+msDS-ExternalDirectoryObjectId       : User_b30bf1d3-e78c-49b0-9d66-e7d7e2258866
+msDS-KeyCredentialLink               : {B:854:000200002000011AC999939BE15C2E31E1550A28A16E4E6F7E3BB7C2FD18D20CABD9D7A77A48AF200002DC2E5F555632C23700C169478ECDA9CDF0F71D87281780940AB9C63D1664D5F81B0103525341310008000003000000000100000000000000000000010001BC9556834EBF316D36F57EF72BB8BC12C637CE7E754B34
+                                       13180CA99AC517FDDEE6AFF3F3421FB95AA9812EAD28CB6851B3876FB542D0ED5F3ED5CA3CB81650563A19676E1E1B835299B07FC260222D57106397A7A5FCFA386DDC6A353628C1653B251B8CCD8DED16AFBDBA8D65B0899A21117DD5BB49463B3649FF064DBC63C2485C4EB143D2F1E7AD91975B14399535DA755630BAED7BC6F0C
+                                       C93B8A5A34AB72ECB2E13C7B2365E7F7F9BD3E489E9DBDE5BF29ECE22382FF2351FCF6961C1CCC2802405EFE461A176C1F9E2288EE2E456552792CC1C305ECE85B35022EEBC9768A334B712A777A8DD923B7F9A2027856155A9A9E9A4030E5417C7152090844B0100040101000501100006B41C2C97F655A34FBB5CC55351EFD58D0F
+                                       00070100000000020100000000000000000800080000000000000000080009C540C8952DE1DB48:CN=BUHR Carl-Christian (DIGIT) - buhrbbu,OU=DIGIT,OU=ITIC,OU=User Accounts,DC=welcome,DC=ec,DC=europa,DC=eu, B:828:00020000200001D0DC27BF26BB397342D33B3C3E48E2EA8E2EF3786576FB3E4C739
+                                       625C7F6E09D2000023F65E20DCDF3B2CBFC461B64E6158ABB0C6331FB1E82BAC00620D75D8675451B1B0103525341310008000003000000000100000000000000000000010001C7F31EF7EEF75C1AFEE627F07A8739E03743D5E59A0E3DBD57C4EFCC8965532538DB2C9A283A10A75EA5E5F51E694EFFD326A85639DA1C81E92BD4D1
+                                       3FEB16E42507C9FFFF237AFA4A2170E109B3F287B49ABD44AC6A5352A7483B9DAA6CE6227B17D36CBAE0689C67CDEC13B3FB300B87A2E2177A94D4C1BB5F34A4F12E8ED9761B92E2E6998B01E206CDB222537244DC75C63AB81AB428440F4E47CF406B66BDAFD42290F22AF275A2F27EFF68EC981198D042A395AEB0994043D39C414
+                                       85A7E729969686CA7741E41E79CA318BC1A3F1B5BC176205DC8D27619A18C3E23607E0E81C64AB7D9C64626F2262EE55518FB3E2AC1965F4F9B5075DBA0826B64310100040101000500100006BECA27F84BFFDE429C817564C26E82D30200070100080008A213C317B1C1D701080009A213C317B1C1D701:CN=BUHR 
+                                       Carl-Christian (DIGIT) - buhrbbu,OU=DIGIT,OU=ITIC,OU=User Accounts,DC=welcome,DC=ec,DC=europa,DC=eu, B:828:00020000200001B4C6710586DECD2855CDDE63E93E7865F40FD9890B647ABE00C1912C4B49CA23200002BC3F822C6849F43BDCB0C60B1BFA00F03C68B9A4BF177DA8ADE27AC5C1F4B97D1B0103
+                                       525341310008000003000000000100000000000000000000010001CBE575431E811A6A4D5E69969DF885DA0F3A0EF874FEC74F78D354AFA11BC83C02B14E664BCA25D792121B03D5A4CAD5AAB6DBC9B1CEB651A3F494F8F1C8D7EC1896AE361E230C1FAC4FEED7C0DF73AEF93B0CB6B01B0FE98F9586DFBE521F6873218C750318802
+                                       1E6F938D0EEADF90A3F2682F6671F9347B93CA5C2C437B579E6858D27702BCC2C731D7374DA0DE93A3893252B5ADB4EC5C27C687684E8694FE23BCF5A6148DBC385C735F8BA022D049519227BA54824B50E5C12A7942CECBB6FFE5E9515D27EF67E7D4C799B1796F34D9DA5FCF49C2ACC0B5D30A5EDBC4053F685B0D9F3C52A65A14D
+                                       50849740B9E0BAB88E0F344595A12DB842D215935BEF0100040101000500100006BECA27F84BFFDE429C817564C26E82D3020007010008000852D067E5B0C1D70108000952D067E5B0C1D701:CN=BUHR Carl-Christian (DIGIT) - buhrbbu,OU=DIGIT,OU=ITIC,OU=User 
+                                       Accounts,DC=welcome,DC=ec,DC=europa,DC=eu, B:828:0002000020000102BE531E5E746A24EED5997228F2E7DFED4325DC1EBE84AEF6562F9FC70E6BF9200002CE533B257A082EA2DDE4A21045A8CF06F641C2FF35C5CD5248B78385B8871CFC1B0103525341310008000003000000000100000000000000000000010001D168
+                                       534847EDF506E321F96120C71495B23AAF79BE6F3C09174B7D332716B182EBBDB54B0A981AD2E17245052869AFA659D8FF7B4A85F76FCC09A3959B13BF867764DDABA6C6331D96A5750CD573F63337DCB8230357021BDBD5D255379D1006C7C0955F82FC94A3CEBDEDC015D5B313F7C190C2636757C32B88CB703A6D8A6D33EFE87AE
+                                       AAFB445AF12C06F473BF4047C60D0F4B21955D67A7B859CB12AD063D34743B6D10A1F442D6AEAC5BE13AB8FE58153BC0A243777C2C7D24A9B0CFEC4DE3107C311DCE0B56A7AB64413EF97388051C6633D08C94C356D12B57CF8CDAAC7933B0D01F1BCF78A6BB7411DCB5D7DEC0BE7BF2CF73ECD8CF0CDE55E7D5AE101000401010005
+                                       00100006B41C2C97F655A34FBB5CC55351EFD58D020007010008000839E86166BA05DA0108000939E86166BA05DA01:CN=BUHR Carl-Christian (DIGIT) - buhrbbu,OU=DIGIT,OU=ITIC,OU=User Accounts,DC=welcome,DC=ec,DC=europa,DC=eu}
+msDS-User-Account-Control-Computed   : 0
+msExchADCGlobalNames                 : {NT5:53E6AAF09C6CF845BF10DAE1C15A85FD00000000CD679AB1F161C701, forest:o=CEC000000007FC3FEE4F161C701, FOREST:BAD38A420F16034B9D9D17339F66295300000000CD679AB1F161C701, 
+                                       EX5:cn=buhrbbu,cn=Recipients,ou=CMS,o=CEC:organizationalperson$person$top000000007FC3FEE4F161C701}
+msExchALObjectVersion                : 1187
+msExchAuditAdmin                     : 1469
+msExchAuditDelegate                  : 1469
+msExchAuditDelegateAdmin             : 1469
+msExchAuditOwner                     : 1085
+msExchBlockedSendersHash             : {206, 142, 134, 247}
+msExchCalendarLoggingQuota           : 6291456
+msExchELCMailboxFlags                : 18
+msExchHideFromAddressLists           : False
+msExchHomeServerName                 : /o=CEC/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=SP-EXC-1107
+msExchMailboxAuditEnable             : True
+msExchMailboxAuditLastAdminAccess    : 8/9/2016 10:08:49 AM
+msExchMailboxAuditLastDelegateAccess : 3/30/2026 4:45:56 PM
+msExchMailboxGuid                    : {212, 81, 1, 160...}
+msExchMailboxSecurityDescriptor      : System.DirectoryServices.ActiveDirectorySecurity
+msExchMailboxTemplateLink            : CN=EC Automated Email Deletion - 6 months,CN=Retention Policies Container,CN=CEC,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int
+msExchMobileMailboxFlags             : 1
+msExchOmaAdminWirelessEnable         : 0
+msExchOWAPolicy                      : CN=Default,CN=OWA Mailbox Policies,CN=CEC,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int
+msExchPoliciesExcluded               : {{26491CFC-9E50-4857-861B-0CB8DF22B5D7}}
+msExchProvisioningFlags              : 0
+msExchRBACPolicyLink                 : CN=EC Role Assignment Policy,CN=Policies,CN=RBAC,CN=CEC,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int
+msExchRecipientDisplayType           : 1073741824
+msExchRecipientTypeDetails           : 1
+msExchRecipLimit                     : 500
+msExchSafeRecipientsHash             : {135, 66, 243, 85}
+msExchSafeSendersHash                : {76, 37, 27, 25...}
+msExchTextMessagingState             : {16842751, 302120705}
+msExchUMDtmfMap                      : {reversedPhone:99749706423+, reversedPhone:9958692223+, reversedPhone:99586, emailAddress:22752474784262847...}
+msExchUMPinChecksum                  : {164, 1, 33, 255...}
+msExchUnmergedAttsPt                 : {104, 0, 111, 0...}
+msExchUserAccountControl             : 0
+msExchUserCulture                    : en-GB
+msExchVersion                        : 88218628259840
+msExchWhenMailboxCreated             : 3/30/2012 2:42:05 PM
+msRTCSIP-DeploymentLocator           : SRV:
+msRTCSIP-FederationEnabled           : True
+msRTCSIP-InternetAccessEnabled       : True
+msRTCSIP-OptionFlags                 : 257
+msRTCSIP-PrimaryHomeServer           : CN=Lc Services,CN=Microsoft,CN=3:1,CN=Pools,CN=RTC Service,CN=Services,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int
+msRTCSIP-PrimaryUserAddress          : sip:Carl-Christian.BUHR@ec.europa.eu
+msRTCSIP-UserEnabled                 : True
+msRTCSIP-UserPolicies                : {0=1811084689, 27=1, 9=3, 7=13...}
+msRTCSIP-UserRoutingGroupId          : {255, 82, 159, 55...}
+msTSExpireDate                       : 5/22/2020 1:52:17 AM
+msTSLicenseVersion                   : 655360
+msTSLicenseVersion2                  : 7
+msTSLicenseVersion3                  : C50-10.00-S
+msTSManagingLS                       : 00377-60000-88073-AT508
+Name                                 : BUHR Carl-Christian (DIGIT) - buhrbbu
+nTSecurityDescriptor                 : System.DirectoryServices.ActiveDirectorySecurity
+ObjectCategory                       : CN=Person,CN=Schema,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int
+ObjectClass                          : user
+ObjectGUID                           : f0aae653-6c9c-45f8-bf10-dae1c15a85fd
+objectSid                            : S-1-5-21-94363767-3260461996-605643614-10583
+Office                               : L107 11/007
+OfficePhone                          : +32 229-68599
+Organization                         : 
+OtherName                            : 
+otherTelephone                       : {68599, +32 229-68599}
+PasswordExpired                      : False
+PasswordLastSet                      : 10/15/2021 12:42:21 PM
+PasswordNeverExpires                 : True
+PasswordNotRequired                  : False
+physicalDeliveryOfficeName           : L107 11/007
+POBox                                : 
+PostalCode                           : 
+PrimaryGroup                         : CN=Domain Users,CN=Users,DC=welcome,DC=ec,DC=europa,DC=eu
+primaryGroupID                       : 513
+PrincipalsAllowedToDelegateToAccount : {}
+ProfilePath                          : 
+ProtectedFromAccidentalDeletion      : False
+protocolSettings                     : {RemotePowerShell§0, OWA§1, HTTP§1§1§§§§§§, POP3§0§1§4§ISO-8859-1§0§§§...}
+proxiedObjectName                    : B:16:0000000000000001:DC=net1,DC=cec,DC=eu,DC=int
+proxyAddresses                       : {sip:Carl-Christian.BUHR@ec.europa.eu, x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ff47dd453fcd4e12b9c840ef6feaf8a0-BUHR Carl-C, X500:/o=cec/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=BUHR 
+                                       Carl-Christian (DIGIT)d89, SMTP:Carl-Christian.BUHR@ec.europa.eu}
+pwdLastSet                           : 132787681414261897
+replicatedObjectVersion              : 64
+replicationSignature                 : {205, 227, 37, 134...}
+SamAccountName                       : buhrbbu
+sAMAccountType                       : 805306368
+ScriptPath                           : itic-logon.vbs Called_From_Userattribute
+sDRightsEffective                    : 0
+ServicePrincipalNames                : {}
+showInAddressBook                    : {CN=Mailboxes(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=CEC,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int, CN=All Mailboxes(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=CEC,CN=Microsoft 
+                                       Exchange,CN=Services,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int, CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=CEC,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int, CN=SECEM,CN=All Address 
+                                       Lists,CN=Address Lists Container,CN=CEC,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=root,DC=cec,DC=eu,DC=int...}
+SID                                  : S-1-5-21-94363767-3260461996-605643614-10583
+SIDHistory                           : {S-1-5-21-1606980848-2025429265-839522115-384595}
+SmartcardLogonRequired               : False
+sn                                   : BUHR
+State                                : 
+StreetAddress                        : 
+Surname                              : BUHR
+telephoneNumber                      : +32 229-68599
+textEncodedORAddress                 : X400:C=BE;A=RTT;P=CEC;S=BUHR;G=Carl-Christian;
+thumbnailPhoto                       : {255, 216, 255, 224...}
+Title                                : Mr
+TrustedForDelegation                 : False
+TrustedToAuthForDelegation           : False
+UseDESKeyOnly                        : False
+userAccountControl                   : 66048
+userCertificate                      : {48 130 5 147 48 130 3 123 160 3 2 1 2 2 3 12 200 118 48 13 6 9 42 134 72 134 247 13 1 1 11 5 0 48 55 49 28 48 26 6 3 85 4 10 12 19 69 117 114 111 112 101 97 110 32 67 111 109 109 105 115 115 105 111 110 49 23 48 21 6 3 85 4 3 12 14 67 111 109 109 105 115 83 
+                                       105 103 110 32 45 32 50 48 30 23 13 50 54 48 54 50 52 49 53 49 55 51 49 90 23 13 51 48 48 54 50 52 49 53 49 55 51 49 90 48 109 49 47 48 45 6 9 42 134 72 134 247 13 1 9 1 22 32 67 97 114 108 45 67 104 114 105 115 116 105 97 110 46 66 85 72 82 64 101 99 46 101 
+                                       117 114 111 112 97 46 101 117 49 28 48 26 6 3 85 4 10 12 19 69 117 114 111 112 101 97 110 32 67 111 109 109 105 115 115 105 111 110 49 28 48 26 6 3 85 4 3 12 19 66 85 72 82 32 67 97 114 108 45 67 104 114 105 115 116 105 97 110 48 130 1 34 48 13 6 9 42 134 72 
+                                       134 247 13 1 1 1 5 0 3 130 1 15 0 48 130 1 10 2 130 1 1 0 193 82 109 87 158 142 246 226 122 172 252 225 143 134 162 85 0 229 208 187 65 249 95 81 39 49 121 222 211 149 162 104 152 224 167 217 136 248 233 192 177 36 160 81 45 178 79 136 79 40 97 101 68 2 102 74 
+                                       42 58 78 141 56 69 101 32 23 182 168 166 202 191 5 1 58 147 131 145 58 117 241 249 207 195 131 134 77 68 11 236 112 6 69 45 180 116 182 81 232 204 188 54 117 135 155 86 132 150 125 22 94 59 247 211 193 232 90 25 161 107 118 2 14 119 15 55 155 138 144 142 157 
+                                       32 10 253 66 234 122 112 198 225 168 248 171 153 171 4 177 197 229 151 223 240 151 54 60 59 100 218 70 150 245 241 215 158 166 80 123 233 187 214 49 154 35 1 110 244 63 72 15 159 89 33 121 136 119 73 174 17 180 78 97 182 150 185 238 210 42 15 74 99 132 206 138 
+                                       61 124 4 220 11 156 0 166 100 36 6 152 143 229 203 66 137 156 221 6 221 43 185 80 153 20 194 77 64 97 211 48 204 191 251 89 29 53 31 125 104 144 25 106 107 147 104 118 22 212 150 232 5 94 205 2 3 1 0 1 163 130 1 112 48 130 1 108 48 29 6 3 85 29 14 4 22 4 20 
+                                       115 162 135 163 60 105 7 103 165 144 139 235 53 218 39 118 15 156 169 210 48 31 6 3 85 29 35 4 24 48 22 128 20 154 251 143 118 102 152 220 172 44 215 119 54 113 109 186 227 103 71 145 246 48 14 6 3 85 29 15 1 1 255 4 4 3 2 4 48 48 22 6 3 85 29 37 1 1 255 4 12 
+                                       48 10 6 8 43 6 1 5 5 7 3 4 48 43 6 3 85 29 17 4 36 48 34 129 32 67 97 114 108 45 67 104 114 105 115 116 105 97 110 46 66 85 72 82 64 101 99 46 101 117 114 111 112 97 46 101 117 48 73 6 3 85 29 31 4 66 48 64 48 62 160 60 160 58 134 56 104 116 116 112 58 47 47 
+                                       99 111 109 109 105 115 115 105 103 110 46 112 107 105 46 101 99 46 101 117 114 111 112 97 46 101 117 47 105 110 102 111 47 99 114 108 47 111 110 108 105 110 101 67 65 46 99 114 108 48 129 137 6 8 43 6 1 5 5 7 1 1 4 125 48 123 48 68 6 8 43 6 1 5 5 7 48 2 134 56 
+                                       104 116 116 112 58 47 47 99 111 109 109 105 115 115 105 103 110 46 112 107 105 46 101 99 46 101 117 114 111 112 97 46 101 117 47 105 110 102 111 47 97 105 97 47 111 110 108 105 110 101 67 65 46 99 114 116 48 51 6 8 43 6 1 5 5 7 48 1 134 39 104 116 116 112 58 
+                                       47 47 99 111 109 109 105 115 115 105 103 110 46 112 107 105 46 101 99 46 101 117 114 111 112 97 46 101 117 47 111 99 115 112 48 13 6 9 42 134 72 134 247 13 1 1 11 5 0 3 130 2 1 0 94 194 73 129 230 152 139 110 170 200 228 95 76 23 210 164 11 173 183 36 48 47 
+                                       189 184 114 101 19 210 37 205 43 30 106 22 205 225 104 219 192 211 147 206 150 218 11 42 8 161 103 50 139 151 189 231 255 236 253 46 133 42 220 70 14 156 1 146 36 7 14 146 241 52 159 249 228 242 118 155 58 40 47 69 51 14 61 215 77 133 29 75 53 184 160 22 9 33 
+                                       38 148 120 37 91 105 222 216 59 95 160 224 75 235 132 214 157 174 237 86 95 154 225 7 0 254 182 103 156 181 199 119 67 63 74 49 29 114 240 10 217 52 22 173 101 28 18 101 35 181 227 22 96 5 114 155 81 134 170 3 237 100 15 172 121 142 130 50 12 195 185 4 154 130 
+                                       233 197 220 243 57 169 84 41 212 229 46 161 126 191 3 154 5 143 82 197 255 247 252 241 196 171 94 88 52 101 235 199 117 177 228 174 135 126 204 196 207 87 239 42 36 215 186 239 167 151 228 233 59 108 251 140 26 108 59 38 125 223 136 239 209 253 25 255 30 43 
+                                       255 57 121 112 208 2 147 108 58 114 242 164 118 36 217 74 81 193 132 222 174 2 155 22 81 233 182 4 73 34 216 143 203 135 104 218 175 58 203 62 71 204 41 246 49 141 133 95 131 241 58 249 163 41 251 179 73 70 103 153 32 148 127 161 75 22 15 48 13 127 144 157 54 
+                                       63 104 158 61 46 84 92 24 8 34 61 29 213 7 254 231 124 82 1 84 82 161 204 254 78 156 76 165 210 110 237 204 40 228 168 140 115 231 109 33 171 148 67 24 197 86 153 94 86 23 122 10 164 239 113 213 154 12 253 39 88 15 190 132 197 84 227 151 12 110 148 102 137 238 
+                                       242 113 66 254 90 62 93 156 167 12 171 22 148 225 111 17 220 91 30 173 31 44 26 228 141 193 2 4 218 32 116 142 247 125 235 247 109 127 120 0 123 56 83 37 58 188 3 117 219 168 42 157 233 94 203 190 77 164 9 114 25 144 144 121 111 235 202 188 24 100 30 106 48 
+                                       149 66 40 180 62 232 39 17 97 73 137 1 10 185 169 40 43 16 25 163 167 27 88 189 168 132 247 111 136 208 228 50 66 157 191 84 242 60 228 172 3 36 194 59 193 226 135 201 109 196 72 141}
+userParameters                       : CtxCfgPresent                                   PCtxCfgPresent㔵攱戰ぢCtxCfgFlags1〰て〲〹 TCtxWFProfilePath挵挵收㔶㐷ㄳ攲㌶㔶㌶攲㔶㔷攲㤶收㐷挵〵㈵昴㘴㤴挴㔴㌵挵㈵㐴㌵〳〳ㄳ挵㈶㔷㠶㈷㈶㈶㔷〰"¨CtxWFProfilePathW挵〰挵〰收〰㔶〰㐷〰ㄳ〰攲〰㌶〰㔶〰㌶〰攲〰㔶〰㔷〰攲〰㤶〰收〰㐷〰挵〰〵〰㈵〰昴〰㘴〰㤴〰挴〰㔴〰㌵〰挵〰㈵〰㐴〰㌵〰〳〰〳〰ㄳ〰挵〰㈶〰㔷〰㠶〰㈷〰㈶〰㈶〰㔷〰〰〰
+UserPrincipalName                    : Carl-Christian.BUHR@ec.europa.eu
+uSNChanged                           : 164070355
+uSNCreated                           : 114783
+whenChanged                          : 6/24/2026 5:17:53 PM
+whenCreated                          : 10/15/2021 11:55:38 AM
+PropertyNames                        : {AccountExpirationDate, accountExpires, AccountLockoutTime, AccountNotDelegated...}
+AddedProperties                      : {}
+RemovedProperties                    : {}
+ModifiedProperties                   : {}
+PropertyCount                        : 196
+
+
+

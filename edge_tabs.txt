@@ -1,0 +1,865 @@
+﻿{
+    "value":  [
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/1ED4C4D9F268DC2CC14C8643BC9CD1AF",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "1ED4C4D9F268DC2CC14C8643BC9CD1AF",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/1ED4C4D9F268DC2CC14C8643BC9CD1AF"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/C9A4AE3E584AE0A36E05276D4AA1A6BB",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "C9A4AE3E584AE0A36E05276D4AA1A6BB",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/C9A4AE3E584AE0A36E05276D4AA1A6BB"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/06EA1A501F955332D7BC3C0FF722E1D0",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "06EA1A501F955332D7BC3C0FF722E1D0",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/06EA1A501F955332D7BC3C0FF722E1D0"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/C32A6AC3D5F57AD5907DE859F465B164",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "C32A6AC3D5F57AD5907DE859F465B164",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/C32A6AC3D5F57AD5907DE859F465B164"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/FC59A768185A86C6BFBFA84A39E4B458",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "FC59A768185A86C6BFBFA84A39E4B458",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/FC59A768185A86C6BFBFA84A39E4B458"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/DF14B3FE6F7EE0AF4EA0C43210E5BF5C",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "DF14B3FE6F7EE0AF4EA0C43210E5BF5C",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/DF14B3FE6F7EE0AF4EA0C43210E5BF5C"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/E079B2BFFE70C3EB52A8C00AE7EA4E64",
+                      "faviconUrl":  "https://chatgpt.com/favicon.ico",
+                      "id":  "E079B2BFFE70C3EB52A8C00AE7EA4E64",
+                      "title":  "Découper PDF scan livre",
+                      "type":  "page",
+                      "url":  "https://chatgpt.com/c/6a3acb65-bc2c-83eb-9afe-2302611d1380",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/E079B2BFFE70C3EB52A8C00AE7EA4E64"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/0F7210C41A45FD53032B5AE839DB4BFC",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "0F7210C41A45FD53032B5AE839DB4BFC",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/0F7210C41A45FD53032B5AE839DB4BFC"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/31718CA114F57C7CC62B6C9F834EFD61",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "31718CA114F57C7CC62B6C9F834EFD61",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/31718CA114F57C7CC62B6C9F834EFD61"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/2EA092C689E6EBAB85A70EC3644B4D20",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "2EA092C689E6EBAB85A70EC3644B4D20",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/2EA092C689E6EBAB85A70EC3644B4D20"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/9A20573856B40C61F9B84D1BDAD13093",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "9A20573856B40C61F9B84D1BDAD13093",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/9A20573856B40C61F9B84D1BDAD13093"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/20C123E3D592157C4FB5FAF9D42C85FB",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "20C123E3D592157C4FB5FAF9D42C85FB",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/20C123E3D592157C4FB5FAF9D42C85FB"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/0AE2730E2E1EDAC332DCB92C010253B0",
+                      "faviconUrl":  "https://www.perplexity.ai/favicon.ico",
+                      "id":  "0AE2730E2E1EDAC332DCB92C010253B0",
+                      "title":  "Perplexity",
+                      "type":  "page",
+                      "url":  "https://www.perplexity.ai/",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/0AE2730E2E1EDAC332DCB92C010253B0"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/8B502B77A6A9F2B11FE38959D9904595",
+                      "faviconUrl":  "https://www.perplexity.ai/favicon.ico",
+                      "id":  "8B502B77A6A9F2B11FE38959D9904595",
+                      "parentId":  "0AE2730E2E1EDAC332DCB92C010253B0",
+                      "title":  "https://count.perplexity.ai/bs#7f22d072-48bf-41b0-be95-6d7387beb67f",
+                      "type":  "iframe",
+                      "url":  "https://count.perplexity.ai/bs#7f22d072-48bf-41b0-be95-6d7387beb67f",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/8B502B77A6A9F2B11FE38959D9904595"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/B5CBCB2B3E11DF5A7A1EBF8F2CDAFC11",
+                      "faviconUrl":  "https://webgate.ec.testa.eu/Ares/imagesdeaef266cc/favicon.ico",
+                      "id":  "B5CBCB2B3E11DF5A7A1EBF8F2CDAFC11",
+                      "title":  "Ares",
+                      "type":  "page",
+                      "url":  "https://webgate.ec.testa.eu/Ares/welcome.do?ticket=ST-8803462-4OKRaGgp7yGrqLO5nQ1bhWPvg7Gr6mzPakaa9sMgLWH5RBwanhSYnkLpzWazMwAbbN2VCv4zS2O3x7hOBn5uSHq-m5stpJzr6TdmzU5Ii2IYse-1tATN34NzVNRRE54lsOka3MNElGzdH99XCqk9F03gTQjipzkFsvReGnnSpPmYDaPJlSPViXDdaSKmG86MNNJ1k0",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/B5CBCB2B3E11DF5A7A1EBF8F2CDAFC11"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/13BBDBD1C07A8EDAF244DB9ACD7FF5C7",
+                      "faviconUrl":  "https://taxation-customs.ec.europa.eu/themes/contrib/oe_theme/images/favicons/ec/favicon.ico",
+                      "id":  "13BBDBD1C07A8EDAF244DB9ACD7FF5C7",
+                      "title":  "Login | EC IDP",
+                      "type":  "page",
+                      "url":  "https://idp.tech.ec.europa.eu/login",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/13BBDBD1C07A8EDAF244DB9ACD7FF5C7"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/9568FDB47A54A406E5CE20CE28848760",
+                      "faviconUrl":  "https://citnet.tech.ec.europa.eu/CITnet/confluence/s/-op9n4n/9116/n2r6gc/33/_/favicon.ico",
+                      "id":  "9568FDB47A54A406E5CE20CE28848760",
+                      "title":  "MyWorkplace AI Assitant (260206) - Compass Corporate - CITnet Confluence",
+                      "type":  "page",
+                      "url":  "https://citnet.tech.ec.europa.eu/CITnet/confluence/spaces/COMPCORP/pages/1491939545/MyWorkplace+AI+Assitant+260206",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/9568FDB47A54A406E5CE20CE28848760"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/4E042014D39B2EE93AE354FD9446C727",
+                      "faviconUrl":  "https://psxl.psteering.com/EC/img/favicon.ico",
+                      "id":  "4E042014D39B2EE93AE354FD9446C727",
+                      "title":  "myWorkPlace : Summary | PowerSteering 2026R1.0 CR2",
+                      "type":  "page",
+                      "url":  "https://psxl.psteering.com/EC/project/Summary1.epage?sp=Ufs000080000n2rhvj3l0000000",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/4E042014D39B2EE93AE354FD9446C727"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/64A7E4B1B2DB0E4FBDFFDB3426D10CEC",
+                      "faviconUrl":  "https://webgate.ec.europa.eu/cas/images/favicon.ico",
+                      "id":  "64A7E4B1B2DB0E4FBDFFDB3426D10CEC",
+                      "title":  "EU Login",
+                      "type":  "page",
+                      "url":  "https://webgate.ec.europa.eu/cas/oauth2/authorize?scope=openid+email+profile\u0026response_type=code\u0026oauth_provider_id=c015e4d5fb20cb10534afb037befdca9\u0026state=SNC10dc5901cc93f80f27450cc279c56dcd\u0026redirect_uri=https%3A%2F%2Fdigit.service-now.com%2Fnavpage.do\u0026code_challenge_method=S256\u0026client_id=uo2g48lm739rRza0rB1rzzQ5r6jdaC2Vs0ueeYsqaD23WREhfelWyVrlG9b2fzgagXgonxzaeKRBZB6JdgMsaqP-rS0vSrmBGYCti05SoZIJt0\u0026code_challenge=_oebg8DWrlohITD2dgwgAw2gi6-iJligjHA40UgNrEU",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/64A7E4B1B2DB0E4FBDFFDB3426D10CEC"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/AE1A1AB370340D9EA185BC755976CF3D",
+                      "faviconUrl":  "https://webgate.ec.testa.eu/cas/images/favicon.ico",
+                      "id":  "AE1A1AB370340D9EA185BC755976CF3D",
+                      "title":  "intracomm.ec.testa.eu",
+                      "type":  "page",
+                      "url":  "https://intracomm.ec.testa.eu/SYSPER2/tim/statistics/validateAbsences.do",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/AE1A1AB370340D9EA185BC755976CF3D"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/B67A183B78C2646DD686AE6DFCFA3BCD",
+                      "faviconUrl":  "https://webgate.ec.europa.eu/fpfis/wikis/s/jnq7ep/9114/1q424x5/17/_/favicon.ico",
+                      "id":  "B67A183B78C2646DD686AE6DFCFA3BCD",
+                      "title":  "11-Town hall community of practice 2026 06 - Brussels \u0026amp; Luxembourg - DevSecOps - EC Extranet Wiki",
+                      "type":  "page",
+                      "url":  "https://webgate.ec.europa.eu/fpfis/wikis/pages/viewpage.action?pageId=2346492797\u0026spaceKey=devsecops\u0026title=11-Town%2Bhall%2Bcommunity%2Bof%2Bpractice%2B2026%2B06%2B-%2BBrussels%2BLuxembourg",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/B67A183B78C2646DD686AE6DFCFA3BCD"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/09623950AE74533AC44D943261F21379",
+                      "faviconUrl":  "https://webgate.ec.europa.eu/fpfis/wikis/s/jnq7ep/9114/1q424x5/17/_/favicon.ico",
+                      "id":  "09623950AE74533AC44D943261F21379",
+                      "parentId":  "B67A183B78C2646DD686AE6DFCFA3BCD",
+                      "title":  "https://eceuropaeu.sharepoint.com/:p:/r/teams/GRP-DevSecOpsCommunityofPractice/_layouts/15/Doc.aspx?sourcedoc=%7B5ab10c6b-f0ae-47ab-aed3-bf07a3e23e93%7D\u0026amp;action=embedview\u0026amp;wdAr=1.7777777777777777",
+                      "type":  "iframe",
+                      "url":  "https://eceuropaeu.sharepoint.com/:p:/r/teams/GRP-DevSecOpsCommunityofPractice/_layouts/15/Doc.aspx?sourcedoc=%7B5ab10c6b-f0ae-47ab-aed3-bf07a3e23e93%7D\u0026action=embedview\u0026wdAr=1.7777777777777777",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/09623950AE74533AC44D943261F21379"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/872F202BD9DCDB3487672D1AEF813313",
+                      "faviconUrl":  "https://webgate.ec.europa.eu/fpfis/wikis/s/jnq7ep/9114/1q424x5/17/_/favicon.ico",
+                      "id":  "872F202BD9DCDB3487672D1AEF813313",
+                      "parentId":  "09623950AE74533AC44D943261F21379",
+                      "title":  "https://euc.present.officeapps.live.com/viewer",
+                      "type":  "iframe",
+                      "url":  "https://euc.present.officeapps.live.com/viewer",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/872F202BD9DCDB3487672D1AEF813313"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/2D023D54777C564260C7C43E1004FA43",
+                      "faviconUrl":  "https://claude.ai/favicon.ico",
+                      "id":  "2D023D54777C564260C7C43E1004FA43",
+                      "title":  "Claude",
+                      "type":  "page",
+                      "url":  "https://claude.ai/magic-link#5a57afc448f33dc17e472d34f790f575:dG90bzI0MDMyNUBnbWFpbC5jb20=",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/2D023D54777C564260C7C43E1004FA43"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/C2AF6FB0AEC7F04534E891D8E9A49CD0",
+                      "faviconUrl":  "https://webgate.ec.europa.eu/cas/images/favicon.ico",
+                      "id":  "C2AF6FB0AEC7F04534E891D8E9A49CD0",
+                      "title":  "Successful login",
+                      "type":  "page",
+                      "url":  "https://webgate.ec.europa.eu/cas/login?loginRequestId=ECAS_LR-1214949-DzeFTzVHDhYZzfZNYuxLAgsfdnzskEQOAtGVOzv8tUf7AqPrhytxmyoxUzxpt0cky4npwC9ESVkazbys8UeUGzX6-m5stpJzr6TdqFBqhzphU61-keCXJm7wFQPeW8VCYXrOseSi1fyCiBWmmDrZ37HK2ZMvbUOlGIo8RSH76zyJTLBqb6Fl6hRGWdYzadft2Isj5I",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/C2AF6FB0AEC7F04534E891D8E9A49CD0"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/E149D9CCC91E023A79D34B5EB3C0C8AD",
+                      "id":  "E149D9CCC91E023A79D34B5EB3C0C8AD",
+                      "title":  "api.gpt.tech.ec.europa.eu/login?error",
+                      "type":  "page",
+                      "url":  "https://api.gpt.tech.ec.europa.eu/login?error",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/E149D9CCC91E023A79D34B5EB3C0C8AD"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/48889E09F6AD3B81AF394366822FA528",
+                      "faviconUrl":  "https://webmail.ec.europa.eu/owa/auth/15.2.2562/themes/resources/favicon.ico",
+                      "id":  "48889E09F6AD3B81AF394366822FA528",
+                      "title":  "Outlook",
+                      "type":  "page",
+                      "url":  "https://webmail.ec.europa.eu/owa/auth/logon.aspx?replaceCurrent=1\u0026url=https%3a%2f%2fwebmail.ec.europa.eu%2fowa%2f%23authRedirect%3dtrue",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/48889E09F6AD3B81AF394366822FA528"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/AE0287851CCB2D97928605E22BAA2028",
+                      "faviconUrl":  "https://teams.public.onecdn.static.microsoft/evergreen-assets/icons/microsoft_teams_logo_refresh_v2025.ico",
+                      "id":  "AE0287851CCB2D97928605E22BAA2028",
+                      "title":  "(11) Chat | DIGIT.A MGT | Microsoft Teams",
+                      "type":  "page",
+                      "url":  "https://teams.cloud.microsoft/",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/AE0287851CCB2D97928605E22BAA2028"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/44EF001D8E2AB6AA8C4E3EB80F5A2FC5",
+                      "id":  "44EF001D8E2AB6AA8C4E3EB80F5A2FC5",
+                      "title":  "webgate.ec.testa.eu",
+                      "type":  "page",
+                      "url":  "https://webgate.ec.testa.eu/cas/login?loginRequestId=ECAS_LR-64651414-RTaXCRutfMuOmfb5BWEXK5kqcisvD7B8zlr13BjXcuaotnIyj2y1JzwL1DNzKPmj44IzhSALrXbyOqGUIYIgefq-POMaLlcnzRyAT7YuhAZpuq-zVTPIodBGjEScDwImosTQWMnEykmGQuuZSoqUoJVDyezdDBUu3oGmRzYIKl4akrsdNqOSaFrYPXtjAJsrSKYyVm",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/44EF001D8E2AB6AA8C4E3EB80F5A2FC5"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/E7698EF64893095EE0A4CF1C728BA03D",
+                      "faviconUrl":  "https://statics.teams.cdn.office.net/hashedassets-launcher/favicon/favicon-2025.ico",
+                      "id":  "E7698EF64893095EE0A4CF1C728BA03D",
+                      "title":  "Join conversation",
+                      "type":  "page",
+                      "url":  "https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fchat%2F19%3A472f1476c2b046bebfbb6ee708c9a2a5%40thread.v2%2Fconversations%3FtenantId%3Db24c8b06-522c-46fe-9080-70926f8dddb1%26CT%3D1780911610356%26OR%3DOutlook-Body%26CID%3DFA1D72B9-8DB0-45C5-B390-13E626EEA29C\u0026type=chat\u0026deeplinkId=1544ddad-8a1e-4efc-b916-4cc1779a6676\u0026directDl=true\u0026msLaunch=true\u0026enableMobilePage=true\u0026suppressPrompt=true",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/E7698EF64893095EE0A4CF1C728BA03D"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/D018B4AA0591F9A3483B68B0A18026E5",
+                      "faviconUrl":  "https://webgate.ec.testa.eu/Ares/imagesdeaef266cc/favicon.ico",
+                      "id":  "D018B4AA0591F9A3483B68B0A18026E5",
+                      "title":  "Ares",
+                      "type":  "page",
+                      "url":  "https://webgate.ec.testa.eu/Ares/welcome.do?ticket=ST-108336-C3f4xPQ3SotzrVw7yzw9yk7cnzmOJzo41nvREYQ4vju0fpWeJS7qt1zmNoMrBxTIxFiopvDe5NkiihS7t3c17Iw-m5stpJzr6TdHqKvS8ngZmm-YZPKJb0gvyZWaNA1fU8F1zfEZ28RvihN3cGY4JqIJBtOKJiastVKdIm35XYfCU7d7gNisHjXCS0Wpzs48yqmIt",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/D018B4AA0591F9A3483B68B0A18026E5"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/9C16B173BE9F240EF65431E1D31E7E5D",
+                      "faviconUrl":  "https://digit.service-now.com/faviconEU.ico?v=4",
+                      "id":  "9C16B173BE9F240EF65431E1D31E7E5D",
+                      "title":  "Logout successful | ServiceNow",
+                      "type":  "page",
+                      "url":  "https://digit.service-now.com/external_logout_complete.do?sysparm_error=oidc_code_error",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/9C16B173BE9F240EF65431E1D31E7E5D"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/885571C1D5091D9B74735CBBB0C7E0A0",
+                      "faviconUrl":  "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico",
+                      "id":  "885571C1D5091D9B74735CBBB0C7E0A0",
+                      "title":  "ldskfj - Search",
+                      "type":  "page",
+                      "url":  "https://www.bing.com/search?q=ldskfj\u0026cvid=faf4759c766c4862b0779f33b082f536\u0026gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIICAEQ6QcY_FXSAQczMTdqMGoxqAIAsAIA\u0026FORM=ANAB01\u0026PC=U531",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/885571C1D5091D9B74735CBBB0C7E0A0"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/C2CC8310408675565517C7B93D88150E",
+                      "faviconUrl":  "https://statics.teams.cdn.office.net/hashedassets-launcher/favicon/favicon-2025.ico",
+                      "id":  "C2CC8310408675565517C7B93D88150E",
+                      "title":  "Join conversation",
+                      "type":  "page",
+                      "url":  "https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fmeet%2F344928140854176%3Fp%3Dqe12zIQefml7h3jNha%26anon%3Dtrue\u0026type=meet\u0026deeplinkId=0ab33501-f61d-4675-9f17-36de3413ad54\u0026directDl=true\u0026msLaunch=true\u0026enableMobilePage=true\u0026suppressPrompt=true",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/C2CC8310408675565517C7B93D88150E"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/29A97F59727B2F45521CE54215DD794F",
+                      "faviconUrl":  "https://citnet.tech.ec.europa.eu/CITnet/confluence/s/-op9n4n/9116/n2r6gc/33/_/favicon.ico",
+                      "id":  "29A97F59727B2F45521CE54215DD794F",
+                      "title":  "Dashboard - CITnet Confluence",
+                      "type":  "page",
+                      "url":  "https://citnet.tech.ec.europa.eu/CITnet/confluence/index.action#all-updates",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/29A97F59727B2F45521CE54215DD794F"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/2886A397D08236006699EC15DDCB8386",
+                      "faviconUrl":  "https://ecas.ec.europa.eu/cas/images/favicon.ico",
+                      "id":  "2886A397D08236006699EC15DDCB8386",
+                      "title":  "EU Login",
+                      "type":  "page",
+                      "url":  "https://ecas.ec.europa.eu/cas/login?SAMLRequest=lVJdawIxEPwrR97vEq969YIKVkt7YFX02oe%2BlBhXDdwl12wi%2FfmNX1RfhMJC2J2dYWZJD0VdNXzo3U4v4NsDuuinrjTyI9An3mpuBCrkWtSA3Em%2BHL5NeJow3ljjjDQVuaLcZwhEsE4ZTaJi3Cez6fNk9lJMv%2FKMZXmn3YozWHfj9qbD4i7LRCxXebYRaQo5MBJ9gMXA7ZMgFQQQPRQandAujFiaxSxUXrYeeOeRs%2FyTROOQR2nhjqydcw1ySkEKTEAm4K1pRHhoGNDKbFWwNT9nelJ6rfT2fpzVaQn5a1nO4%2FlsWZJoeIk4Mhp9DXYJdq8kvC8mfxakchpc4kDubp2MijIAVBq9qTxoCbSpfDCGNKjuqwAdjizP0mTQO7T8eAo7%2BL96j17zT93tbxj8Ag%3D%3D\u0026RelayState=4fb9626d-8e5a-423e-aefc-e2f35753cd29",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/2886A397D08236006699EC15DDCB8386"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/50354D1C76B800702ACDA3E51BCBAAC0",
+                      "faviconUrl":  "https://citnet.tech.ec.europa.eu/CITnet/confluence/s/-op9n4n/9116/n2r6gc/33/_/favicon.ico",
+                      "id":  "50354D1C76B800702ACDA3E51BCBAAC0",
+                      "title":  "Dashboard - CITnet Confluence",
+                      "type":  "page",
+                      "url":  "https://citnet.tech.ec.europa.eu/CITnet/confluence/index.action#all-updates",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/50354D1C76B800702ACDA3E51BCBAAC0"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/889CFFA19027C6184A1118C05B675146",
+                      "id":  "889CFFA19027C6184A1118C05B675146",
+                      "title":  "webgate.ec.testa.eu",
+                      "type":  "page",
+                      "url":  "https://webgate.ec.testa.eu/cas/login?loginRequestId=ECAS_LR-64660436-xEulDzdWlVT2jeCh7NnBud0jR5ffxrdzivghyFhV8cYhJh96PzZVQR2N4ARYIDTl9l2ImGC6c3fczvB7jREpEVm-POMaLlcnzRyAT7YuhAZpuq-kzbVf7VzhIOyrN7RKn3zo8Otfk6edscnoVBRVbwrntHXKNXpnW1KgqkfyzPFi7v4RcCLL4GSIoSwNiOvl6raUZy",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/889CFFA19027C6184A1118C05B675146"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/8BEAB0AF6A0F866A186788E413291F01",
+                      "faviconUrl":  "https://content.powerapps.com/resource/uci-infra-web/resources/images/favicon.e8fc3549b3b1319d4b1a2c8d760e9cd6.ico",
+                      "id":  "8BEAB0AF6A0F866A186788E413291F01",
+                      "parentId":  "9C7722489B00E9BB4384DB7D4FD531CE",
+                      "title":  "https://apps.powerapps.com/apphost/e/3dc16860-7086-e93a-a716-94dda452de45?skipIframeCreation=true\u0026amp;hideNavBar=true\u0026amp;hostMode=0\u0026amp;authMode=5\u0026amp;correlationId=9f56d667-fdc9-48ab-aa4e-548a95d841af\u0026amp;locale=en-US\u0026amp;isPreviewMode=false\u0026amp;skipLaunchAppCache=false\u0026amp;embedderOrigin=https%3A%2F%2Forgd4193db6.crm4.dynamics.com\u0026amp;appMetadataVersion=11154212\u0026amp;tenantId=b24c8b06-522c-46fe-9080-70926f8dddb1\u0026amp;standAloneConsent=true",
+                      "type":  "iframe",
+                      "url":  "https://apps.powerapps.com/apphost/e/3dc16860-7086-e93a-a716-94dda452de45?skipIframeCreation=true\u0026hideNavBar=true\u0026hostMode=0\u0026authMode=5\u0026correlationId=9f56d667-fdc9-48ab-aa4e-548a95d841af\u0026locale=en-US\u0026isPreviewMode=false\u0026skipLaunchAppCache=false\u0026embedderOrigin=https%3A%2F%2Forgd4193db6.crm4.dynamics.com\u0026appMetadataVersion=11154212\u0026tenantId=b24c8b06-522c-46fe-9080-70926f8dddb1\u0026standAloneConsent=true",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/8BEAB0AF6A0F866A186788E413291F01"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/DFCF221B30C0B3E6B96DAC36CBC2E994",
+                      "faviconUrl":  "https://content.powerapps.com/resource/uci-infra-web/resources/images/favicon.e8fc3549b3b1319d4b1a2c8d760e9cd6.ico",
+                      "id":  "DFCF221B30C0B3E6B96DAC36CBC2E994",
+                      "parentId":  "9C7722489B00E9BB4384DB7D4FD531CE",
+                      "title":  "https://apps.powerapps.com/authflow/e/3dc16860-7086-e93a-a716-94dda452de45/authframe?telemetryLocation=eu",
+                      "type":  "iframe",
+                      "url":  "https://apps.powerapps.com/authflow/e/3dc16860-7086-e93a-a716-94dda452de45/authframe?telemetryLocation=eu",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/DFCF221B30C0B3E6B96DAC36CBC2E994"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/FE19244E07A3A321363E0B72D84D46EB",
+                      "faviconUrl":  "https://content.powerapps.com/resource/uci-infra-web/resources/images/favicon.e8fc3549b3b1319d4b1a2c8d760e9cd6.ico",
+                      "id":  "FE19244E07A3A321363E0B72D84D46EB",
+                      "parentId":  "9C7722489B00E9BB4384DB7D4FD531CE",
+                      "title":  "https://apps.powerapps.com/fpi/ocvsurvey?origin=https%3A%2F%2Forgd4193db6.crm4.dynamics.com",
+                      "type":  "iframe",
+                      "url":  "https://apps.powerapps.com/fpi/ocvsurvey?origin=https%3A%2F%2Forgd4193db6.crm4.dynamics.com",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/FE19244E07A3A321363E0B72D84D46EB"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/9C7722489B00E9BB4384DB7D4FD531CE",
+                      "faviconUrl":  "https://content.powerapps.com/resource/uci-infra-web/resources/images/favicon.e8fc3549b3b1319d4b1a2c8d760e9cd6.ico",
+                      "id":  "9C7722489B00E9BB4384DB7D4FD531CE",
+                      "title":  "DIGIT A Software Inventories Active DIGIT A Software Inventory - Power Apps",
+                      "type":  "page",
+                      "url":  "https://orgd4193db6.crm4.dynamics.com/main.aspx?forceUCI=1\u0026pagetype=entitylist\u0026etn=cr2b4_digitasoftwareinventory2026\u0026viewid=ebd7b0ce-f9de-4b75-9b3e-2779e086f6af\u0026viewType=1039\u0026lid=1777923707030\u0026originalAppId=05804603-6c06-f111-8406-000d3aa969d8",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/9C7722489B00E9BB4384DB7D4FD531CE"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/5B6DD5BDAF3E78680B2775D7F0D75DA6",
+                      "faviconUrl":  "https://elevenlabs.io/favicon.ico",
+                      "id":  "5B6DD5BDAF3E78680B2775D7F0D75DA6",
+                      "parentId":  "3A473F6E8E7A2675E3487E6AF15448D9",
+                      "title":  "https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=https%3A%2F%2Felevenlabs.io%2Fapp%2Fdevelopers%2Fanalytics%2Fusage\u0026amp;title=AI%20Voice%20Generator%20%26%20Text%20to%20Speech%20%7C%20ElevenLabs\u0026amp;referrer=\u0026amp;muid=NA\u0026amp;sid=NA\u0026amp;version=6\u0026amp;preview=false\u0026amp;__shared_params__[version]=basil",
+                      "type":  "iframe",
+                      "url":  "https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=https%3A%2F%2Felevenlabs.io%2Fapp%2Fdevelopers%2Fanalytics%2Fusage\u0026title=AI%20Voice%20Generator%20%26%20Text%20to%20Speech%20%7C%20ElevenLabs\u0026referrer=\u0026muid=NA\u0026sid=NA\u0026version=6\u0026preview=false\u0026__shared_params__[version]=basil",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/5B6DD5BDAF3E78680B2775D7F0D75DA6"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/EA86D66EB06BEB1463D04F80004B0132",
+                      "faviconUrl":  "https://elevenlabs.io/favicon.ico",
+                      "id":  "EA86D66EB06BEB1463D04F80004B0132",
+                      "parentId":  "3A473F6E8E7A2675E3487E6AF15448D9",
+                      "title":  "https://newassets.hcaptcha.com/captcha/v1/caa502ef4d2063b68a3b48defc6ff368e0012d5d/static/hcaptcha.html#frame=checkbox-invisible",
+                      "type":  "iframe",
+                      "url":  "https://newassets.hcaptcha.com/captcha/v1/caa502ef4d2063b68a3b48defc6ff368e0012d5d/static/hcaptcha.html#frame=checkbox-invisible",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/EA86D66EB06BEB1463D04F80004B0132"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/FD1FD9256CD2D85A1600F49B3D38C47D",
+                      "faviconUrl":  "https://elevenlabs.io/favicon.ico",
+                      "id":  "FD1FD9256CD2D85A1600F49B3D38C47D",
+                      "parentId":  "3A473F6E8E7A2675E3487E6AF15448D9",
+                      "title":  "https://newassets.hcaptcha.com/captcha/v1/caa502ef4d2063b68a3b48defc6ff368e0012d5d/static/hcaptcha.html#frame=challenge\u0026amp;id=00getztzuhwn8\u0026amp;host=elevenlabs.io\u0026amp;sentry=true\u0026amp;reportapi=https%3A%2F%2Faccounts.hcaptcha.com\u0026amp;recaptchacompat=off\u0026amp;custom=false\u0026amp;hl=en\u0026amp;tplinks=on\u0026amp;andint=off\u0026amp;pstissuer=https%3A%2F%2Fpst-issuer.hcaptcha.com\u0026amp;sitekey=92e8aac8-4372-4358-9eae-f3e842981bd0\u0026amp;size=invisible\u0026amp;theme=light\u0026amp;origin=https%3A%2F%2Felevenlabs.io\u0026amp;clientOptions=%7B%22sentry%22%3Atrue%2C%22reportapi%22%3A%22https%3A%2F%2Faccounts.hcaptcha.com%22%2C%22recaptchacompat%22%3A%22off%22%2C%22custom%22%3Afalse%2C%22hl%22%3A%22en-US%22%2C%22tplinks%22%3A%22on%22%2C%22andint%22%3A%22off%22%2C%22pat%22%3A%22on%22%2C%22pstissuer%22%3A%22https%3A%2F%2Fpst-issuer.hcaptcha.com%22%2C%22endpoint%22%3A%22https%3A%2F%2Fapi.hcaptcha.com%22%2C%22theme%22%3A%22light%22%2C%22size%22%3A%22normal%22%2C%22confirm-nav%22%3Afalse%7D",
+                      "type":  "iframe",
+                      "url":  "https://newassets.hcaptcha.com/captcha/v1/caa502ef4d2063b68a3b48defc6ff368e0012d5d/static/hcaptcha.html#frame=challenge\u0026id=00getztzuhwn8\u0026host=elevenlabs.io\u0026sentry=true\u0026reportapi=https%3A%2F%2Faccounts.hcaptcha.com\u0026recaptchacompat=off\u0026custom=false\u0026hl=en\u0026tplinks=on\u0026andint=off\u0026pstissuer=https%3A%2F%2Fpst-issuer.hcaptcha.com\u0026sitekey=92e8aac8-4372-4358-9eae-f3e842981bd0\u0026size=invisible\u0026theme=light\u0026origin=https%3A%2F%2Felevenlabs.io\u0026clientOptions=%7B%22sentry%22%3Atrue%2C%22reportapi%22%3A%22https%3A%2F%2Faccounts.hcaptcha.com%22%2C%22recaptchacompat%22%3A%22off%22%2C%22custom%22%3Afalse%2C%22hl%22%3A%22en-US%22%2C%22tplinks%22%3A%22on%22%2C%22andint%22%3A%22off%22%2C%22pat%22%3A%22on%22%2C%22pstissuer%22%3A%22https%3A%2F%2Fpst-issuer.hcaptcha.com%22%2C%22endpoint%22%3A%22https%3A%2F%2Fapi.hcaptcha.com%22%2C%22theme%22%3A%22light%22%2C%22size%22%3A%22normal%22%2C%22confirm-nav%22%3Afalse%7D",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/FD1FD9256CD2D85A1600F49B3D38C47D"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/208D36D360AC5BA4039D223B3224F75F",
+                      "faviconUrl":  "https://elevenlabs.io/favicon.ico",
+                      "id":  "208D36D360AC5BA4039D223B3224F75F",
+                      "parentId":  "3A473F6E8E7A2675E3487E6AF15448D9",
+                      "title":  "https://consentcdn.cookiebot.com/sdk/bc-v4.min.html",
+                      "type":  "iframe",
+                      "url":  "https://consentcdn.cookiebot.com/sdk/bc-v4.min.html",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/208D36D360AC5BA4039D223B3224F75F"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/3A473F6E8E7A2675E3487E6AF15448D9",
+                      "faviconUrl":  "https://elevenlabs.io/favicon.ico",
+                      "id":  "3A473F6E8E7A2675E3487E6AF15448D9",
+                      "title":  "AI Voice Generator \u0026amp; Text to Speech | ElevenLabs",
+                      "type":  "page",
+                      "url":  "https://elevenlabs.io/app/developers/analytics/usage",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/3A473F6E8E7A2675E3487E6AF15448D9"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/0FC8B85270EF756863555077C41A2D53",
+                      "faviconUrl":  "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico",
+                      "id":  "0FC8B85270EF756863555077C41A2D53",
+                      "title":  "elevenlabs - Search",
+                      "type":  "page",
+                      "url":  "https://www.bing.com/search?filters=ufn%3a%22ElevenLabs%22+sid%3a%22eaa327bb-4e40-3dcf-8ed0-70aecf85ce22%22\u0026asbe=AS\u0026qs=MB\u0026pq=eleven\u0026sk=CSYN1\u0026sc=14-6\u0026q=elevenlabs\u0026cvid=41296b5f7e354f0db224dbf6b4957b5a\u0026gs_lcrp=EgRlZGdlKgcIABAuGPkHMgcIABAuGPkHMgYIARAuGEAyBggCEAAYQDIGCAMQABhAMgYIBBAuGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQDIICAkQ6QcY_FXSAQgyMjgwajBqMagCALACAA\u0026FORM=ANAB01\u0026PC=U531",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/0FC8B85270EF756863555077C41A2D53"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/626B2DDCAD4BC32FD6C114EFA3F6A106",
+                      "id":  "626B2DDCAD4BC32FD6C114EFA3F6A106",
+                      "title":  "api.gpt.tech.ec.europa.eu/login?error",
+                      "type":  "page",
+                      "url":  "https://api.gpt.tech.ec.europa.eu/login?error",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/626B2DDCAD4BC32FD6C114EFA3F6A106"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/64F0ED8CAD00A074184A923102934EDF",
+                      "id":  "64F0ED8CAD00A074184A923102934EDF",
+                      "title":  "intracomm.ec.testa.eu",
+                      "type":  "page",
+                      "url":  "https://intracomm.ec.testa.eu/SYSPER2/mvc/prb/modifyRequest/62801/8507",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/64F0ED8CAD00A074184A923102934EDF"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/185C9B191AF2B9DFEA9C1CF20C949428",
+                      "faviconUrl":  "https://digit.service-now.com/faviconEU.ico?v=4",
+                      "id":  "185C9B191AF2B9DFEA9C1CF20C949428",
+                      "title":  "Logout successful | ServiceNow",
+                      "type":  "page",
+                      "url":  "https://digit.service-now.com/external_logout_complete.do?sysparm_error=oidc_code_error",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/185C9B191AF2B9DFEA9C1CF20C949428"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/424EF6C0F1D2A04CA2E900A26926B06C",
+                      "faviconUrl":  "https://webgate.ec.testa.eu/Ares/imagesdeaef266cc/favicon.ico",
+                      "id":  "424EF6C0F1D2A04CA2E900A26926B06C",
+                      "title":  "Ares",
+                      "type":  "page",
+                      "url":  "https://webgate.ec.testa.eu/Ares/document/show.do?documentId=080166e52c915ffb\u0026targetUrl=register.do\u0026activeTab=3\u0026timestamp=1782316756300",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/424EF6C0F1D2A04CA2E900A26926B06C"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/11356EBB2F4FBE1B2E0226DF6555470A",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "11356EBB2F4FBE1B2E0226DF6555470A",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/11356EBB2F4FBE1B2E0226DF6555470A"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/69FC4D0D3D23DDBD6805827AA9EFEBAD",
+                      "faviconUrl":  "http://192.168.0.7:5100/favicon.svg",
+                      "id":  "69FC4D0D3D23DDBD6805827AA9EFEBAD",
+                      "title":  "Quota Statistics",
+                      "type":  "page",
+                      "url":  "http://192.168.0.7:5100/",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/69FC4D0D3D23DDBD6805827AA9EFEBAD"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/06DB1B22D80FE3551B0732A21E0E0B99",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "06DB1B22D80FE3551B0732A21E0E0B99",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/06DB1B22D80FE3551B0732A21E0E0B99"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/B2F384E5B1DBFED9020D60878E37328F",
+                      "faviconUrl":  "https://webmail.ec.europa.eu/owa/favicon.ico",
+                      "id":  "B2F384E5B1DBFED9020D60878E37328F",
+                      "title":  "Email - Eric.Derruine@ec.europa.eu",
+                      "type":  "page",
+                      "url":  "https://webmail.ec.europa.eu/owa/#path=/mail",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/B2F384E5B1DBFED9020D60878E37328F"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/FC2451C80E4E234757B7120FA34BEF2E",
+                      "faviconUrl":  "https://webgate.ec.testa.eu/presence/images/favicon.ico",
+                      "id":  "FC2451C80E4E234757B7120FA34BEF2E",
+                      "title":  "Time Recording",
+                      "type":  "page",
+                      "url":  "https://webgate.ec.testa.eu/presence/editPresences.do?ticket=ST-2595493-xoTycY8EEaUKDVUZGVpYzjJ7EY8PbcNWbDD84UyWrzm1vtxOCwUhKYBzwGpJkHXvzIUSpgbFWpFnZRNxPUyTHT8-R2zIpfT8xjMzzUM9uT9gwrm-vtPwtPvZ4Hsk85G2JM72BuzSPriT6GQu2ZKZWQZ2V4FgZfgTJPVTAityU83QgTYozQsYtMzoXjysOlwtTzSXGiG",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/FC2451C80E4E234757B7120FA34BEF2E"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/8BDA90FEC4BE7F8E702586A24BB09853",
+                      "faviconUrl":  "https://teams.public.onecdn.static.microsoft/evergreen-assets/icons/microsoft_teams_logo_refresh_v2025.ico",
+                      "id":  "8BDA90FEC4BE7F8E702586A24BB09853",
+                      "title":  "(10) Chat | DIGIT.A MGT | Microsoft Teams",
+                      "type":  "page",
+                      "url":  "https://teams.cloud.microsoft/",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/8BDA90FEC4BE7F8E702586A24BB09853"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/CD543DD5472EC74757718B5FA4EBA5A3",
+                      "faviconUrl":  "https://gpt-next.tech.ec.europa.eu/favicon.ico",
+                      "id":  "CD543DD5472EC74757718B5FA4EBA5A3",
+                      "title":  "GPT@EC",
+                      "type":  "page",
+                      "url":  "https://gpt-next.tech.ec.europa.eu/home",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/CD543DD5472EC74757718B5FA4EBA5A3"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/BB82FC49FACFBF7FCF403BBE3485FF29",
+                      "faviconUrl":  "https://eceuropaeu.sharepoint.com/_layouts/15/images/favicon.ico?rev=49",
+                      "id":  "BB82FC49FACFBF7FCF403BBE3485FF29",
+                      "parentId":  "C51210F2B7FEC05E3A210FB8C2807DCE",
+                      "title":  "https://webshell.suite.office.com/iframe/TokenFactoryIframe?origin=https%3A%2F%2Feceuropaeu.sharepoint.com\u0026amp;shsid=0932f049-ce0f-479a-9824-4a47178b6f6c\u0026amp;apiver=oneshell\u0026amp;cshver=1.20260612.6.0\u0026amp;upn=Eric.Derruine%40ec.europa.eu",
+                      "type":  "iframe",
+                      "url":  "https://webshell.suite.office.com/iframe/TokenFactoryIframe?origin=https%3A%2F%2Feceuropaeu.sharepoint.com\u0026shsid=0932f049-ce0f-479a-9824-4a47178b6f6c\u0026apiver=oneshell\u0026cshver=1.20260612.6.0\u0026upn=Eric.Derruine%40ec.europa.eu",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/BB82FC49FACFBF7FCF403BBE3485FF29"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/C51210F2B7FEC05E3A210FB8C2807DCE",
+                      "faviconUrl":  "https://eceuropaeu.sharepoint.com/_layouts/15/images/favicon.ico?rev=49",
+                      "id":  "C51210F2B7FEC05E3A210FB8C2807DCE",
+                      "title":  "GRP-DIGIT.C1.005 - TM3 Transition-DIGIT - Documents - TMII Data - All Documents",
+                      "type":  "page",
+                      "url":  "https://eceuropaeu.sharepoint.com/teams/GRP-DIGIT.C1.005-TM3Transition-DIGIT/Shared%20Documents/Forms/AllItems.aspx?csf=1\u0026web=1\u0026e=JZrdUe\u0026ovuser=b24c8b06%2D522c%2D46fe%2D9080%2D70926f8dddb1%2CLaurent%2EARRACHART%40ec%2Eeuropa%2Eeu\u0026CID=8ff44597%2Df933%2D43ac%2Da9f5%2Dd674e5f52a12\u0026OR=Teams%2DHL\u0026CT=1778654894010\u0026clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNjA0MTYxNzIxNSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D\u0026cidOR=Client\u0026FolderCTID=0x012000DE2C06E06CF9724AA111FB47AD5AF9B0\u0026id=%2Fteams%2FGRP%2DDIGIT%2EC1%2E005%2DTM3Transition%2DDIGIT%2FShared%20Documents%2FTMII%20Data",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/C51210F2B7FEC05E3A210FB8C2807DCE"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/2F2DF4EE6E9A4469BB9C7288FBDC9347",
+                      "faviconUrl":  "https://psxl.psteering.com/EC/img/favicon.ico",
+                      "id":  "2F2DF4EE6E9A4469BB9C7288FBDC9347",
+                      "title":  "Home | PowerSteering 2026R1.0 CR2",
+                      "type":  "page",
+                      "url":  "https://psxl.psteering.com/EC/",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/2F2DF4EE6E9A4469BB9C7288FBDC9347"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/A3C93F20D5DB42A9A441E1D0F1E54A11",
+                      "id":  "A3C93F20D5DB42A9A441E1D0F1E54A11",
+                      "title":  "AdBlock — block ads across the web",
+                      "type":  "background_page",
+                      "url":  "chrome-extension://ndcileolkflehcjpmjnfbnaibdcgglog/_generated_background_page.html",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/A3C93F20D5DB42A9A441E1D0F1E54A11"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/413002126986908F47FF3B4F234E4D4F",
+                      "id":  "413002126986908F47FF3B4F234E4D4F",
+                      "title":  "Service Worker https://teams.cloud.microsoft/serviceworker.js",
+                      "type":  "service_worker",
+                      "url":  "https://teams.cloud.microsoft/serviceworker.js",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/413002126986908F47FF3B4F234E4D4F"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/ED569F1C17467EE132E2C9EDD4BDE115",
+                      "id":  "ED569F1C17467EE132E2C9EDD4BDE115",
+                      "title":  "uci-state-persistence",
+                      "type":  "shared_worker",
+                      "url":  "https://orgd4193db6.crm4.dynamics.com/uclient/scripts/statepersistenceworker.js",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/ED569F1C17467EE132E2C9EDD4BDE115"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/3E9735D8400A8E9D66ED7AEA66608956",
+                      "id":  "3E9735D8400A8E9D66ED7AEA66608956",
+                      "title":  "Service Worker https://eceuropaeu.sharepoint.com/_layouts/15/odspserviceworkerproxy.aspx?swManifestName=spserviceworker\u0026amp;debug=false\u0026amp;bypass=false\u0026amp;navigationPreloadHeaderValue=%7B%22supportsFeatures%22%3A%5B90235%2C61462%2C62475%5D%7D\u0026amp;userId=2f7b76c6-9cd0-4813-9c52-578508fb20ac\u0026amp;dataHost=Nucleus\u0026amp;applications=%5B%7B%22id%22%3A%22SPHome%22%7D%2C%7B%22id%22%3A%22SitePages%22%7D%2C%7B%22id%22%3A%22Stream%22%7D%2C%7B%22id%22%3A%22Embed%22%7D%2C%7B%22id%22%3A%22CreateGroup%22%7D%2C%7B%22id%22%3A%22SingleWebPart%22%7D%2C%7B%22id%22%3A%22VivaHome%22%7D%2C%7B%22id%22%3A%22BrokerLogon%22%7D%2C%7B%22id%22%3A%22Clipchamp%22%7D%2C%7B%22id%22%3A%22MeeBridge%22%7D%2C%7B%22id%22%3A%22SPStart%22%7D%2C%7B%22id%22%3A%22Agreements%22%7D%2C%7B%22id%22%3A%22ChatODSP%22%7D%2C%7B%22id%22%3A%22ODB%22%7D%2C%7B%22id%22%3A%22Lists%22%7D%2C%7B%22id%22%3A%22NewsL2%22%7D%5D\u0026amp;prefetchListData=true\u0026amp;defaultBrotli=true\u0026amp;authenticateFast=true\u0026amp;inlineAuth=v2\u0026amp;wwData=true\u0026amp;prefetchFilebrowserPageInTeams=true\u0026amp;FUIV9Flights=[-82051073,8159]\u0026amp;spStartApplicationWebBundle=true\u0026amp;missingLinksSW=true\u0026amp;enableIntegrities=true\u0026amp;useNucleusCDN=true\u0026amp;swaOfflineStart=true\u0026amp;spartanOneDriveWireframe=true\u0026amp;enableVHSourceOriginRedirect=true\u0026amp;streamViewServerLoad=true\u0026amp;streamInlineScript=true\u0026amp;compWWFlow=true\u0026amp;fab=true\u0026amp;g=0\u0026amp;redirect=v2\u0026amp;swFetchDurationQos=true\u0026amp;SupportShareDialogJSCaching=true\u0026amp;environment=prod\u0026amp;appHomeSpartanFileBrowserEnabled=true\u0026amp;spartanTeamsListsFileBrowserScenarioEnabled=true\u0026amp;spartanDocLibTeamsSPFileBrowserEnabled=true\u0026amp;announcementsWP=true",
+                      "type":  "service_worker",
+                      "url":  "https://eceuropaeu.sharepoint.com/_layouts/15/odspserviceworkerproxy.aspx?swManifestName=spserviceworker\u0026debug=false\u0026bypass=false\u0026navigationPreloadHeaderValue=%7B%22supportsFeatures%22%3A%5B90235%2C61462%2C62475%5D%7D\u0026userId=2f7b76c6-9cd0-4813-9c52-578508fb20ac\u0026dataHost=Nucleus\u0026applications=%5B%7B%22id%22%3A%22SPHome%22%7D%2C%7B%22id%22%3A%22SitePages%22%7D%2C%7B%22id%22%3A%22Stream%22%7D%2C%7B%22id%22%3A%22Embed%22%7D%2C%7B%22id%22%3A%22CreateGroup%22%7D%2C%7B%22id%22%3A%22SingleWebPart%22%7D%2C%7B%22id%22%3A%22VivaHome%22%7D%2C%7B%22id%22%3A%22BrokerLogon%22%7D%2C%7B%22id%22%3A%22Clipchamp%22%7D%2C%7B%22id%22%3A%22MeeBridge%22%7D%2C%7B%22id%22%3A%22SPStart%22%7D%2C%7B%22id%22%3A%22Agreements%22%7D%2C%7B%22id%22%3A%22ChatODSP%22%7D%2C%7B%22id%22%3A%22ODB%22%7D%2C%7B%22id%22%3A%22Lists%22%7D%2C%7B%22id%22%3A%22NewsL2%22%7D%5D\u0026prefetchListData=true\u0026defaultBrotli=true\u0026authenticateFast=true\u0026inlineAuth=v2\u0026wwData=true\u0026prefetchFilebrowserPageInTeams=true\u0026FUIV9Flights=[-82051073,8159]\u0026spStartApplicationWebBundle=true\u0026missingLinksSW=true\u0026enableIntegrities=true\u0026useNucleusCDN=true\u0026swaOfflineStart=true\u0026spartanOneDriveWireframe=true\u0026enableVHSourceOriginRedirect=true\u0026streamViewServerLoad=true\u0026streamInlineScript=true\u0026compWWFlow=true\u0026fab=true\u0026g=0\u0026redirect=v2\u0026swFetchDurationQos=true\u0026SupportShareDialogJSCaching=true\u0026environment=prod\u0026appHomeSpartanFileBrowserEnabled=true\u0026spartanTeamsListsFileBrowserScenarioEnabled=true\u0026spartanDocLibTeamsSPFileBrowserEnabled=true\u0026announcementsWP=true",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/3E9735D8400A8E9D66ED7AEA66608956"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/273E843432DE9953B1F2B479BC0AB53B",
+                      "id":  "273E843432DE9953B1F2B479BC0AB53B",
+                      "title":  "Service Worker https://eceuropaeu-my.sharepoint.com/_layouts/15/odspserviceworkerproxy.aspx?swManifestName=spserviceworker\u0026amp;debug=false\u0026amp;bypass=false\u0026amp;navigationPreloadHeaderValue=%7B%22supportsFeatures%22%3A%5B90235%2C61462%2C62475%5D%7D\u0026amp;userId=2f7b76c6-9cd0-4813-9c52-578508fb20ac\u0026amp;dataHost=Nucleus\u0026amp;applications=%5B%7B%22id%22%3A%22SPHome%22%7D%2C%7B%22id%22%3A%22SitePages%22%7D%2C%7B%22id%22%3A%22Stream%22%7D%2C%7B%22id%22%3A%22Embed%22%7D%2C%7B%22id%22%3A%22CreateGroup%22%7D%2C%7B%22id%22%3A%22SingleWebPart%22%7D%2C%7B%22id%22%3A%22VivaHome%22%7D%2C%7B%22id%22%3A%22BrokerLogon%22%7D%2C%7B%22id%22%3A%22Clipchamp%22%7D%2C%7B%22id%22%3A%22MeeBridge%22%7D%2C%7B%22id%22%3A%22SPStart%22%7D%2C%7B%22id%22%3A%22Agreements%22%7D%2C%7B%22id%22%3A%22ChatODSP%22%7D%2C%7B%22id%22%3A%22ODB%22%7D%2C%7B%22id%22%3A%22Lists%22%7D%2C%7B%22id%22%3A%22NewsL2%22%7D%5D\u0026amp;prefetchListData=true\u0026amp;defaultBrotli=true\u0026amp;authenticateFast=true\u0026amp;inlineAuth=v2\u0026amp;wwData=true\u0026amp;prefetchFilebrowserPageInTeams=true\u0026amp;FUIV9Flights=[-82051073,8159]\u0026amp;spStartApplicationWebBundle=true\u0026amp;missingLinksSW=true\u0026amp;enableIntegrities=true\u0026amp;useNucleusCDN=true\u0026amp;currentUserOdbMySitePath=%2Fpersonal%2Feric_derruine_ec_europa_eu%2F_layouts%2F15%2Fonedrive.aspx\u0026amp;swaOfflineStart=true\u0026amp;spartanOneDriveWireframe=true\u0026amp;enableVHSourceOriginRedirect=true\u0026amp;streamViewServerLoad=true\u0026amp;streamInlineScript=true\u0026amp;compWWFlow=true\u0026amp;fab=true\u0026amp;g=0\u0026amp;redirect=v2\u0026amp;swFetchDurationQos=true\u0026amp;SupportShareDialogJSCaching=true\u0026amp;teamsBrowserClient=true\u0026amp;environment=prod\u0026amp;appHomeSpartanFileBrowserEnabled=true\u0026amp;spartanTeamsListsFileBrowserScenarioEnabled=true\u0026amp;spartanDocLibTeamsSPFileBrowserEnabled=true\u0026amp;announcementsWP=true",
+                      "type":  "service_worker",
+                      "url":  "https://eceuropaeu-my.sharepoint.com/_layouts/15/odspserviceworkerproxy.aspx?swManifestName=spserviceworker\u0026debug=false\u0026bypass=false\u0026navigationPreloadHeaderValue=%7B%22supportsFeatures%22%3A%5B90235%2C61462%2C62475%5D%7D\u0026userId=2f7b76c6-9cd0-4813-9c52-578508fb20ac\u0026dataHost=Nucleus\u0026applications=%5B%7B%22id%22%3A%22SPHome%22%7D%2C%7B%22id%22%3A%22SitePages%22%7D%2C%7B%22id%22%3A%22Stream%22%7D%2C%7B%22id%22%3A%22Embed%22%7D%2C%7B%22id%22%3A%22CreateGroup%22%7D%2C%7B%22id%22%3A%22SingleWebPart%22%7D%2C%7B%22id%22%3A%22VivaHome%22%7D%2C%7B%22id%22%3A%22BrokerLogon%22%7D%2C%7B%22id%22%3A%22Clipchamp%22%7D%2C%7B%22id%22%3A%22MeeBridge%22%7D%2C%7B%22id%22%3A%22SPStart%22%7D%2C%7B%22id%22%3A%22Agreements%22%7D%2C%7B%22id%22%3A%22ChatODSP%22%7D%2C%7B%22id%22%3A%22ODB%22%7D%2C%7B%22id%22%3A%22Lists%22%7D%2C%7B%22id%22%3A%22NewsL2%22%7D%5D\u0026prefetchListData=true\u0026defaultBrotli=true\u0026authenticateFast=true\u0026inlineAuth=v2\u0026wwData=true\u0026prefetchFilebrowserPageInTeams=true\u0026FUIV9Flights=[-82051073,8159]\u0026spStartApplicationWebBundle=true\u0026missingLinksSW=true\u0026enableIntegrities=true\u0026useNucleusCDN=true\u0026currentUserOdbMySitePath=%2Fpersonal%2Feric_derruine_ec_europa_eu%2F_layouts%2F15%2Fonedrive.aspx\u0026swaOfflineStart=true\u0026spartanOneDriveWireframe=true\u0026enableVHSourceOriginRedirect=true\u0026streamViewServerLoad=true\u0026streamInlineScript=true\u0026compWWFlow=true\u0026fab=true\u0026g=0\u0026redirect=v2\u0026swFetchDurationQos=true\u0026SupportShareDialogJSCaching=true\u0026teamsBrowserClient=true\u0026environment=prod\u0026appHomeSpartanFileBrowserEnabled=true\u0026spartanTeamsListsFileBrowserScenarioEnabled=true\u0026spartanDocLibTeamsSPFileBrowserEnabled=true\u0026announcementsWP=true",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/273E843432DE9953B1F2B479BC0AB53B"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/2310871EE1A5D4D16A725982BAC4586B",
+                      "id":  "2310871EE1A5D4D16A725982BAC4586B",
+                      "title":  "https://teams.cloud.microsoft/v2/worker/precompiled-telemetry-web-worker-9067382703d19ce7.js#{%22sessionId%22:%228ac405e9-f12d-4fba-8e71-823aa217eaf0%22,%22experienceName%22:%22react-web-client%22,%22publicPath%22:%22https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/%22}",
+                      "type":  "worker",
+                      "url":  "https://teams.cloud.microsoft/v2/worker/precompiled-telemetry-web-worker-9067382703d19ce7.js#{%22sessionId%22:%228ac405e9-f12d-4fba-8e71-823aa217eaf0%22,%22experienceName%22:%22react-web-client%22,%22publicPath%22:%22https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/%22}",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/2310871EE1A5D4D16A725982BAC4586B"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/3690618728B24C4E5A0F03B0542DB1BA",
+                      "id":  "3690618728B24C4E5A0F03B0542DB1BA",
+                      "title":  "SP Worker",
+                      "type":  "worker",
+                      "url":  "blob:https://eceuropaeu.sharepoint.com/81b1d6ff-4233-485f-90e5-5b3d7b37d1a5",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/3690618728B24C4E5A0F03B0542DB1BA"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/D9B5B1F385E00100E84A1072B5224345",
+                      "id":  "D9B5B1F385E00100E84A1072B5224345",
+                      "title":  "SpartanPostPLTWorker",
+                      "type":  "worker",
+                      "url":  "blob:https://eceuropaeu.sharepoint.com/2977cbee-6a19-4024-a7ac-eed83b9bf045",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/D9B5B1F385E00100E84A1072B5224345"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/C9FC6C73CB0070420E07503B631129F8",
+                      "id":  "C9FC6C73CB0070420E07503B631129F8",
+                      "title":  "",
+                      "type":  "worker",
+                      "url":  "",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/C9FC6C73CB0070420E07503B631129F8"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/6D4024AF37E96F30D09847C1F45A856E",
+                      "id":  "6D4024AF37E96F30D09847C1F45A856E",
+                      "title":  "Service Worker https://digit.service-now.com/uxsw/scope/root.js?uxpcb=1781861676672\u0026amp;invalidateSwCacheId=-1",
+                      "type":  "service_worker",
+                      "url":  "https://digit.service-now.com/uxsw/scope/root.js?uxpcb=1781861676672\u0026invalidateSwCacheId=-1",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/6D4024AF37E96F30D09847C1F45A856E"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/88B11D5C6B9BEA666CB2E1F4D1B4CDD9",
+                      "id":  "88B11D5C6B9BEA666CB2E1F4D1B4CDD9",
+                      "title":  "",
+                      "type":  "worker",
+                      "url":  "",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/88B11D5C6B9BEA666CB2E1F4D1B4CDD9"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/06BDBB0E7D19C1A6EA34552C86F75AB5",
+                      "id":  "06BDBB0E7D19C1A6EA34552C86F75AB5",
+                      "title":  "https://teams.cloud.microsoft/v2/worker/precompiled-web-worker-236ae23d03deb9f3.js#{%22experienceName%22:%22react-web-client%22,%22ring%22:%22general%22,%22environment%22:%22prod%22,%22sessionId%22:%228ac405e9-f12d-4fba-8e71-823aa217eaf0%22,%22platformId%22:1415,%22buildVersion%22:%2226052906118%22,%22localeCode%22:%22en-us%22,%22workerId%22:%22precore-worker%22,%22publicPath%22:%22https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/%22,%22deviceId%22:%22dd9947be-82d1-4e8c-ba1b-43a7721224e4%22,%22isOcdi%22:true,%22isPwa%22:false,%22workerChunkLoadMaxRetries%22:10,%22shouldFetchWorkerChunksBeforeImportScripts%22:true,%22useDiagnosticsServiceV2%22:true,%22turboCohort%22:%22%22,%22enableLazyLoadedWorker%22:true,%22enableMinimalSchemaWorker%22:false,%22workerCreationTime%22:1782295503827,%22preECSConsoleLogLevel%22:0}",
+                      "type":  "worker",
+                      "url":  "https://teams.cloud.microsoft/v2/worker/precompiled-web-worker-236ae23d03deb9f3.js#{%22experienceName%22:%22react-web-client%22,%22ring%22:%22general%22,%22environment%22:%22prod%22,%22sessionId%22:%228ac405e9-f12d-4fba-8e71-823aa217eaf0%22,%22platformId%22:1415,%22buildVersion%22:%2226052906118%22,%22localeCode%22:%22en-us%22,%22workerId%22:%22precore-worker%22,%22publicPath%22:%22https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/%22,%22deviceId%22:%22dd9947be-82d1-4e8c-ba1b-43a7721224e4%22,%22isOcdi%22:true,%22isPwa%22:false,%22workerChunkLoadMaxRetries%22:10,%22shouldFetchWorkerChunksBeforeImportScripts%22:true,%22useDiagnosticsServiceV2%22:true,%22turboCohort%22:%22%22,%22enableLazyLoadedWorker%22:true,%22enableMinimalSchemaWorker%22:false,%22workerCreationTime%22:1782295503827,%22preECSConsoleLogLevel%22:0}",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/06BDBB0E7D19C1A6EA34552C86F75AB5"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/BB56A9BFCEEB9D18E4F23D6E42D4DC86",
+                      "id":  "BB56A9BFCEEB9D18E4F23D6E42D4DC86",
+                      "title":  "Service Worker https://www.perplexity.ai/service-worker.js?v=2007cfd",
+                      "type":  "service_worker",
+                      "url":  "https://www.perplexity.ai/service-worker.js?v=2007cfd",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/BB56A9BFCEEB9D18E4F23D6E42D4DC86"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/9107A84EE0C7682C5756E3A2F23D1CDF",
+                      "id":  "9107A84EE0C7682C5756E3A2F23D1CDF",
+                      "title":  "Service Worker https://www.youtube.com/sw.js",
+                      "type":  "service_worker",
+                      "url":  "https://www.youtube.com/sw.js",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/9107A84EE0C7682C5756E3A2F23D1CDF"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/F92F4EE1E11A0E7A08B5D1D2522DD765",
+                      "id":  "F92F4EE1E11A0E7A08B5D1D2522DD765",
+                      "title":  "Service Worker chrome-extension://cimighlppcgcoapaliogpjjdehbnofhn/js/background.js",
+                      "type":  "service_worker",
+                      "url":  "chrome-extension://cimighlppcgcoapaliogpjjdehbnofhn/js/background.js",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/F92F4EE1E11A0E7A08B5D1D2522DD765"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/1CEEF24D1383F8B14C15918BF945A11D",
+                      "id":  "1CEEF24D1383F8B14C15918BF945A11D",
+                      "title":  "Service Worker https://photos.google.com/serviceworker.js?xhrRoot=%2Fu%2F2%2F_%2FPhotosUi\u0026amp;mssRowKey=boq.PhotosUi.en_GB.lMDRXrswt9c.2019.O\u0026amp;buildLabel=boq_photosuiserver_20260617.03_p0",
+                      "type":  "service_worker",
+                      "url":  "https://photos.google.com/serviceworker.js?xhrRoot=%2Fu%2F2%2F_%2FPhotosUi\u0026mssRowKey=boq.PhotosUi.en_GB.lMDRXrswt9c.2019.O\u0026buildLabel=boq_photosuiserver_20260617.03_p0",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/1CEEF24D1383F8B14C15918BF945A11D"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/A0A81C6A483A8550FF02D1B5310C1DD2",
+                      "id":  "A0A81C6A483A8550FF02D1B5310C1DD2",
+                      "title":  "Service Worker https://teams.cloud.microsoft/serviceworker.js",
+                      "type":  "service_worker",
+                      "url":  "https://teams.cloud.microsoft/serviceworker.js",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/A0A81C6A483A8550FF02D1B5310C1DD2"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/5DEB424327A08BB8632D6E8ABB1FC118",
+                      "id":  "5DEB424327A08BB8632D6E8ABB1FC118",
+                      "title":  "Service Worker https://teams.microsoft.com/dl/launcher/service-worker.js",
+                      "type":  "service_worker",
+                      "url":  "https://teams.microsoft.com/dl/launcher/service-worker.js",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/5DEB424327A08BB8632D6E8ABB1FC118"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/99372FD292C843B9753DEF79C4EEDFFB",
+                      "id":  "99372FD292C843B9753DEF79C4EEDFFB",
+                      "title":  "",
+                      "type":  "worker",
+                      "url":  "",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/99372FD292C843B9753DEF79C4EEDFFB"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/F18040D757FA53D7F4DBDD86F3EB9C49",
+                      "id":  "F18040D757FA53D7F4DBDD86F3EB9C49",
+                      "title":  "Service Worker https://orgd4193db6.crm4.dynamics.com/uclient/sw.js?cdn=true\u0026amp;gcm=true\u0026amp;uci=true\u0026amp;customPage=false\u0026amp;data=true\u0026amp;clientHost=1\u0026amp;cdnEndpoint=https://content.powerapps.com/resource/uci-infra-web/\u0026amp;cacheMain=true\u0026amp;cdnOwnCache=true",
+                      "type":  "service_worker",
+                      "url":  "https://orgd4193db6.crm4.dynamics.com/uclient/sw.js?cdn=true\u0026gcm=true\u0026uci=true\u0026customPage=false\u0026data=true\u0026clientHost=1\u0026cdnEndpoint=https://content.powerapps.com/resource/uci-infra-web/\u0026cacheMain=true\u0026cdnOwnCache=true",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/F18040D757FA53D7F4DBDD86F3EB9C49"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/83406897EDCDC0C9F51587FCA33B6753",
+                      "id":  "83406897EDCDC0C9F51587FCA33B6753",
+                      "title":  "Service Worker https://chat.mistral.ai/sw.js",
+                      "type":  "service_worker",
+                      "url":  "https://chat.mistral.ai/sw.js",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/83406897EDCDC0C9F51587FCA33B6753"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/308DDF8E32148CD77820C0D232C34C22",
+                      "id":  "308DDF8E32148CD77820C0D232C34C22",
+                      "title":  "Service Worker chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh/background.js",
+                      "type":  "service_worker",
+                      "url":  "chrome-extension://jbkfoedolllekgbhcbcoahefnbanhhlh/background.js",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/308DDF8E32148CD77820C0D232C34C22"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/inspector.html?ws=localhost:9222/devtools/page/D66CC381F8164A5CD8951F559D6CDF69",
+                      "id":  "D66CC381F8164A5CD8951F559D6CDF69",
+                      "title":  "blob:https://www.perplexity.ai/3b0e6807-25c9-4fe1-ae76-94e06ff73aa6",
+                      "type":  "worker",
+                      "url":  "blob:https://www.perplexity.ai/3b0e6807-25c9-4fe1-ae76-94e06ff73aa6",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/D66CC381F8164A5CD8951F559D6CDF69"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/D65684010E4EFB2187F294D210590475",
+                      "id":  "D65684010E4EFB2187F294D210590475",
+                      "title":  "Service Worker chrome-extension://higleibocjmgcnbikjneplkibiopjnkp/background.js",
+                      "type":  "service_worker",
+                      "url":  "chrome-extension://higleibocjmgcnbikjneplkibiopjnkp/background.js",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/D65684010E4EFB2187F294D210590475"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/A6C3AB21786EACE736CFC7FE410FDA2F",
+                      "id":  "A6C3AB21786EACE736CFC7FE410FDA2F",
+                      "title":  "",
+                      "type":  "shared_worker",
+                      "url":  "blob:https://newassets.hcaptcha.com/47e422d4-9af3-4d26-b05e-22c69c1d8674",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/A6C3AB21786EACE736CFC7FE410FDA2F"
+                  },
+                  {
+                      "description":  "",
+                      "devtoolsFrontendUrl":  "https://aka.ms/docs-landing-page/serve_rev/@fe100ed2d0fb16c7e2cbfdc67778768309f50170/worker_app.html?ws=localhost:9222/devtools/page/EA409A11EB2A7C580C8140E15EE83808",
+                      "id":  "EA409A11EB2A7C580C8140E15EE83808",
+                      "title":  "Service Worker https://meet.google.com/meetsw.js?xhrRoot=%2F_%2FMeetingsUi\u0026amp;mssRowKey=boq-rtc.MeetingsUi.en.Yz-DrDsL3ek.2020.O\u0026amp;buildLabel=boq_meetingsuiserver_20260617.07_p1",
+                      "type":  "service_worker",
+                      "url":  "https://meet.google.com/meetsw.js?xhrRoot=%2F_%2FMeetingsUi\u0026mssRowKey=boq-rtc.MeetingsUi.en.Yz-DrDsL3ek.2020.O\u0026buildLabel=boq_meetingsuiserver_20260617.07_p1",
+                      "webSocketDebuggerUrl":  "ws://localhost:9222/devtools/page/EA409A11EB2A7C580C8140E15EE83808"
+                  }
+              ],
+    "Count":  88
+}

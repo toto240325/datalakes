@@ -1,0 +1,69 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1",
+    "title": "CCM2"
+  },
+  "host": "api.tech.ec.europa.eu",
+  "basePath": "/ccm2/1",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [
+    "text/xml",
+    "application/soap+xml"
+  ],
+  "produces": [
+    "text/xml",
+    "application/soap+xml"
+  ],
+  "security": [
+    {
+      "default": []
+    }
+  ],
+  "paths": {
+    "/*": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "SOAP Request",
+            "description": "SOAP request.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "SOAPAction",
+            "in": "header",
+            "description": "SOAPAction header for soap 1.1",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "default": []
+          }
+        ],
+        "x-auth-type": "Application \u0026 Application User",
+        "x-throttling-tier": "Unlimited"
+      }
+    }
+  },
+  "securityDefinitions": {
+    "default": {
+      "type": "oauth2",
+      "authorizationUrl": "https://api.tech.ec.europa.eu/authorize",
+      "flow": "implicit",
+      "scopes": {}
+    }
+  }
+}

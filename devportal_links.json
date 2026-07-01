@@ -1,0 +1,54 @@
+[
+  {
+    "text": "APIs",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis"
+  },
+  {
+    "text": "Applications",
+    "href": "https://api-gateway.ec.testa.eu/devportal/applications"
+  },
+  {
+    "text": "person Sign-in",
+    "href": "https://api-gateway.ec.testa.eu/devportal/services/configs"
+  },
+  {
+    "text": "AdAdplusBy : ECLDAPSERVER/paunddeacceptanceVersion/adplusContext0/5.0 (0users)",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/2719140d-b193-44d2-a73f-b12fe158b5fa"
+  },
+  {
+    "text": "Afaf_eescp-prod-3By : ECLDAPSERVER/vasinpe3.0Version/app-forms/eescp-homeContext",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/8aa3ccce-706f-4f47-9884-879e4d24d5ef"
+  },
+  {
+    "text": "Afaf_pmm-ACCBy : PMM communicates with AF application3.0Version/app-forms/acc/pm",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/7f200be7-8080-42b7-b831-0c6654ca8f90"
+  },
+  {
+    "text": "Afaf_pmm-ProdBy : application forms submissions consumed by pmm4.0Version/app-fo",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/44c2ee00-c4d1-47a1-8a2c-48002de07a9d"
+  },
+  {
+    "text": "Agagora-wsBy : Fuada LANI1.0Version/agora-wsContext0/5.0 (0users)",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/b47795da-1333-40c9-835e-8d023abbd6e9"
+  },
+  {
+    "text": "AGAGREX-AFS-SUMMABy : ECLDAPSERVER/botinauaccVersion/agrex-afs-summaContext0/5.0",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/ddd8a335-280c-4099-b87d-52aa93134ebc"
+  },
+  {
+    "text": "AGAGREX-AFS-SUMMABy : ECLDAPSERVER/botinauintVersion/agrex-afs-summaContext0/5.0",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/cfd25455-bb54-456b-95e6-e269dbddf0b9"
+  },
+  {
+    "text": "AGAGREX-AFS-SUMMABy : ECLDAPSERVER/botinauprodVersion/agrex-afs-summaContext0/5.",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/c906b65b-4369-4c73-bf03-aa7e0db82bdb"
+  },
+  {
+    "text": "AgagriflowBy : ECLDAPSERVER/frezethaccVersion/agri/agriflowContext0/5.0 (0users)",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/0132ad9e-0674-442e-a964-ddf59d24ce12"
+  },
+  {
+    "text": "AgagriflowBy : ECLDAPSERVER/frezethprodVersion/agri/agriflowContext0/5.0 (0users",
+    "href": "https://api-gateway.ec.testa.eu/devportal/apis/c073aa4c-dd6f-49b4-8b24-3cc4e66aad9b"
+  }
+]
