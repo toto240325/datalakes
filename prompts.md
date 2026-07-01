@@ -27,3 +27,7 @@ I would like you to explore this page:
 https://citnet.tech.ec.europa.eu/CITnet/confluence/spaces/APIGTW/pages/1508864135/Tutorial+Step-by-step+for+Business+Users+how+to+consume+APIs+via+the+WSO2+API+GTW
 
 You can do this by using playwright and using my edge session currently running on localhost:9222 in debug mode, with my credendials.  Can you read that page ?
+
+-------------------------
+based on the data we have collected on the people and on the organigram (structure and names of the DGs/directorates/units), please propose a way to exploit as well as possible.  My goal is to have a webapp with a search box where i can enter a name and the app will represent for me the organigram 1 level above and one level below that person, with the names and title of the people aroud that person, and ideally the possibility to navigate in that organigram
+------------------------

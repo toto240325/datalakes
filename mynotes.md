@@ -41,3 +41,13 @@ API DevPortal: https://webgate.ec.testa.eu/devportal
 For Developers page: https://citnet.tech.ec.europa.eu/CITnet/confluence/spaces/APIGTW/pages/1143508232/...
 
 
+-----------------------------------
+
+# Same prerequisites as before: Edge with remote debugging + authenticated session
+node crawl_people.js --dg DIGIT          # test with one DG first
+node crawl_people.js                      # full Commission
+node crawl_people.js --resume             # resume if interrupted
+-----------------
+When finished: 
+node webapp/build_data.cjs to rebuild the webapp data
+then refresh the browser at http://localhost:8080
