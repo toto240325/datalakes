@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EC Directory Explorer</title>
+  <link rel="icon" type="image/svg+xml" href="public/favicon.svg">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f7fa; color: #333; }
@@ -45,10 +46,9 @@
     .people-list { margin-top: 0.5rem; }
     .person { display: flex; justify-content: space-between; align-items: baseline; padding: 0.3rem 0; border-top: 1px solid #f0f0f0; font-size: 0.85rem; }
     .person:first-child { border-top: none; }
-    .person .p-name { font-weight: 500; }
+    .person .p-name { font-weight: 500; white-space: nowrap; }
     .person .p-name.highlight { background: #ffe066; padding: 0 3px; border-radius: 3px; }
-    .person .p-function { color: #666; font-size: 0.8rem; flex-shrink: 0; margin-left: 1rem; text-align: right; max-width: 50%; }
-    .person .p-phone { color: #999; font-size: 0.75rem; margin-left: 0.5rem; white-space: nowrap; }
+    .person .p-function { color: #666; font-size: 0.8rem; text-align: right; margin-left: 1rem; }
 
     .children-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0.5rem; }
 
@@ -222,9 +222,11 @@
         html += '<div class="people-list">';
         for (const p of shown) {
           const isHighlighted = currentHighlight && p.name === currentHighlight;
+          const displayName = p.name;
+          const displayFunc = p.title || p.function || '';
           html += `<div class="person">`;
-          html += `<span class="p-name${isHighlighted ? ' highlight' : ''}">${p.title} ${p.name}</span>`;
-          html += `<span class="p-function">${p.function || ''}</span>`;
+          html += `<span class="p-name${isHighlighted ? ' highlight' : ''}">${displayName}</span>`;
+          html += `<span class="p-function">${displayFunc}</span>`;
           html += `</div>`;
         }
         if (remaining > 0) {

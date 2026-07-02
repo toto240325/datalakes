@@ -1,0 +1,20 @@
+# Changelog
+
+## 0.2.0
+
+- Added SYSPER2 fast crawler (`crawl_sysper.js`): 58K people in 28 min with rich data (statute, function group, location, management flag)
+- Added AD photo extraction script (`active_directory.ps1`)
+- Built webapp with search and org navigation (`webapp/`)
+- Added EU favicon to webapp
+- Restored name-left / job-title-right layout in webapp
+- Reorganized project: legacy Who-is-Who scripts moved to `legacy/`, data files to `data/`
+- Updated `.gitignore` to exclude personal data and legacy artifacts
+- Added release process steering (semantic versioning)
+- Added `build_data.cjs` to generate webapp data from SYSPER2 output
+
+## 0.1.0
+
+- Initial Who-is-Who organigram crawler (`crawl_full_organigram.js`)
+- Initial Who-is-Who people crawler (`crawl_people.js`)
+- Active Directory export script (`active_directory.ps1`)
+- Basic project structure with README and catch-up docs

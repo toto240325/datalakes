@@ -1,24 +1,16 @@
 node_modules/
 
-# Debug/temp files from crawl testing
-debug_output.txt
-crawl_output.txt
-debug_page.js
-sysper_output*.txt
-sysper_html_sample.txt
-sysper_analysis.json
-sysper_deep_analysis.json
-sysper_tree_data.json
-sysper_tree_script.txt
-test_fetch.txt
-explore_sysper*.js
-
 # Personal data - never commit
-ec_people.json
-ec_people.csv
-sysper_people.json
-sysper_people.csv
+data/
 webapp/public/ec_directory.json
+webapp/public/ec_directory_*.json
+
+# Legacy exploration artifacts
+legacy/
+
+# Debug/temp
+*.tmp
+debug_*.txt
 
 # OS files
 Thumbs.db

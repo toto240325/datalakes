@@ -27,7 +27,7 @@ function getArg(name, defaultVal) {
   const idx = args.indexOf(`--${name}`);
   return (idx !== -1 && args[idx + 1]) ? args[idx + 1] : defaultVal;
 }
-const OUTPUT_FILE = getArg('output', 'sysper_people.json');
+const OUTPUT_FILE = getArg('output', 'data/sysper_people.json');
 const ONLY_DG = getArg('dg', null);
 const RESUME = args.includes('--resume');
 

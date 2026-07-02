@@ -1,72 +1,63 @@
 # EC Datalakes
 
-Tools to extract structured data from the European Commission's internal and public directories.
+Tools to extract and explore the European Commission staff directory.
 
 ## Goal
 
-Build a complete, machine-readable dataset of all EC staff members with their:
-- Name
-- Function/job title (e.g. "IT Projects Manager", "Legal and Policy Officer")
-- Organizational unit (DG, Directorate, Unit, Sector)
-- Phone number
+A searchable webapp showing all EC colleagues with their job title, org unit, and position in the organigram — with navigation up/down the hierarchy.
+
+## Architecture
+
+```
+crawl_sysper.js          → data/sysper_people.json     (58K people, all DGs)
+webapp/build_data.cjs    → webapp/public/ec_directory.json  (webapp data)
+webapp/index.html        → http://localhost:8080        (search + org view)
+```
+
+## Quick Start
+
+```bash
+# 1. Start Edge with remote debugging
+msedge --remote-debugging-port=9222
+
+# 2. Open SYSPER2 in Edge and authenticate
+
+# 3. Crawl all staff
+node crawl_sysper.js
+
+# 4. Build webapp data
+node webapp/build_data.cjs
+
+# 5. Serve webapp
+python -m http.server 8080 --bind 127.0.0.1 -d webapp
+# Open http://localhost:8080/index.html
+```
 
 ## Data Sources
 
-### 1. EU "Who is Who" (op.europa.eu)
-The official EU directory. Public but requires EU Login authentication.
-Contains the full org structure and individual staff with their function titles.
+| Source | Access | Data | Speed |
+|--------|--------|------|-------|
+| SYSPER2 (intranet) | EC network + auth | Name, job title, statute, grade, location, management | 58K people in 28 min |
+| Active Directory | EC network + RSAT | Name, email, department, office, phone, photo | ~1 min (in-memory) |
+| Who is Who (public) | EU Login | Name, function title, phone | ~4 hours (legacy) |
 
-### 2. EC Active Directory (internal)
-The internal LDAP directory. Accessible only from the EC network via PowerShell.
-Contains all staff but only Mr/Ms as "title" — no real job function.
+## Project Structure
 
-## Scripts
-
-### `crawl_full_organigram.js`
-Crawls the Who-is-Who to extract the Commission's org structure (DGs → Directorates → Units → Sectors).
-Outputs a hierarchical JSON with org codes, names, and heads.
-
-### `crawl_people.js`
-Crawls the Who-is-Who to extract all individual people with their function titles.
-Recursively visits every page in the org hierarchy and parses people entries.
-
-```bash
-# Crawl one DG
-node crawl_people.js --dg DIGIT
-
-# Crawl all DGs
-node crawl_people.js
-
-# Resume after interruption
-node crawl_people.js --resume
 ```
-
-### `active_directory.ps1`
-PowerShell script to dump the EC Active Directory to CSV.
-Run from the EC network with RSAT installed.
-
-## Prerequisites
-
-- Node.js + `npm install puppeteer-core`
-- Microsoft Edge running with `--remote-debugging-port=9222`
-- Authenticated session on op.europa.eu in Edge
-
-### Starting Edge with remote debugging
+crawl_sysper.js        Main crawler (SYSPER2 approach)
+active_directory.ps1   PowerShell AD export & photo extraction
+webapp/                Web app (search + organigram viewer)
+  index.html           Single-page app
+  build_data.cjs       Builds webapp JSON from crawl output
+  public/              Static assets (favicon, generated data)
+data/                  Generated data files (gitignored)
+legacy/                Old Who-is-Who scrapers and exploration files
 ```
-"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --remote-debugging-port=9222
-```
-
-## Output Files
-
-| File | Description |
-|------|-------------|
-| `ec_people.json` | All people with function titles (JSON array) |
-| `ec_people.csv` | Same data as tab-separated CSV |
-| `ec_organigram_dgs.json` | List of all 49 DGs with Who-is-Who URLs |
-| `digit_full.json` | DIGIT org structure (from organigram crawler) |
 
 ## Status
 
-- [x] Org structure crawler working
-- [x] People crawler working (tested with DIGIT: 2808 people, 148 pages, 21 min)
-- [ ] Full Commission crawl (49 DGs, estimated 2-4 hours)
+- [x] SYSPER2 crawler: 58,239 people across 48 DGs (28 min)
+- [x] Webapp: search by name, navigate organigram ±1 level
+- [x] AD photo extraction (proof of concept)
+- [ ] Integrate photos into webapp
+- [ ] Full Commission crawl automation (scheduled refresh)
