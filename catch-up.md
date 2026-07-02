@@ -1,64 +1,75 @@
-# Catch-Up: Technical Details (v0.2.0)
+# Catch-Up: Technical Details (v0.3.0)
 
-## What We Have
+This file captures everything needed to resume work without the conversation history.
 
-Two data extraction approaches and a webapp to explore the results.
-
-### SYSPER2 Crawler (primary, fast)
-
-`crawl_sysper.js` connects to an Edge browser (port 9222) that has a SYSPER2 tab open. It:
-
-1. Reads the `jsTreeData` variable from the page (contains all DG ouIds in a nested JSON structure)
-2. For each DG, does an in-browser `fetch()` to `/SYSPER2/org/vieworganisationjobs_jd.do?ouId=XXX`
-3. Parses the HTML response: extracts job table (name, title, location, statute, funcGroup) and child ouIds from the jstree data
-4. Recurses into children until no more sub-units
-5. Saves after each DG, supports `--resume`
-
-Performance: 58,239 people in 28 minutes (1,940 fetches). Each fetch takes ~0.5-1s with a 200ms delay between calls.
-
-### Active Directory (supplementary)
-
-`active_directory.ps1` queries the EC's internal LDAP. Gives email, office, phone, and `thumbnailPhoto` (JPEG). The AD `Title` field is only "Mr"/"Ms" (not the job function), which is why SYSPER2 is the primary source.
-
-### Webapp
-
-`webapp/index.html` — a single HTML file with inline JS/CSS. Loads `public/ec_directory.json` (17.5 MB, built by `build_data.cjs`) and provides:
-- Fuzzy search on person names
-- Org view: parent + current unit + children
-- Click to navigate between units
-- EU-flag favicon
-
-Served via `python -m http.server 8080 --bind 127.0.0.1` from the `webapp/` folder.
-
-## File Structure
+## Architecture
 
 ```
-crawl_sysper.js        SYSPER2 crawler
-active_directory.ps1   AD export + photo extraction
-webapp/
-  index.html           SPA (search + org navigation)
-  build_data.cjs       Merges crawl data into webapp format
-  public/
-    favicon.svg        EU-style favicon
-    ec_directory.json  Generated (gitignored)
-data/                  All personal data files (gitignored)
-  sysper_people.json   58K people with rich fields
-  sysper_people.csv    Same, tab-separated
-  sysper_people_2026-07-02.json  Dated backup
-legacy/                Old Who-is-Who approach + exploration files
+SYSPER2 (intranet)──┐
+                    ├──► build_data.cjs ──► ec_directory.json ──► webapp (index.html)
+AD (LDAP) ──────────┤                                              │
+Who-is-Who (WiW) ───┤                                              │
+A4 Excel ───────────┘                                              ▼
+                                                           Browser (port 8087)
 ```
 
-## Key Technical Decisions
+## Data Pipeline
 
-- **SYSPER2 over Who-is-Who**: 12x faster, richer data, same auth requirement
-- **In-browser fetch()**: avoids page navigation, uses existing session cookies
-- **waitUntil: 'load'**: the Who-is-Who site's chatbot kept `networkidle2` from resolving
-- **DG list from jsTreeData**: the SYSPER2 page embeds the full org tree as a JS variable
-- **No server backend**: webapp is pure static HTML + JSON, no build step needed
+1. `crawl_sysper.js` → `data/sysper_people.json` (58K people, ~30 min)
+2. `export_ad_details.ps1` → `data/ad_details.csv` (49K users, ~2 min)
+3. `get_photos.ps1` → `data/photos/*.jpg` + `data/photo_mapping.csv` (21K photos, ~5 min)
+4. `node webapp/build_data.cjs` → `webapp/public/ec_directory.json` (18 MB, merges all)
+5. `python -m http.server 8087 --bind 0.0.0.0 -d webapp`
 
-## Known Issues / Quirks
+## SYSPER2 Crawler — How It Works
 
-- `funcGroup` field currently contains version/status appended (e.g. "1: Active") — needs cleanup
-- Some duplicate entries exist (same person listed at multiple org levels)
-- OIB has 1382 people on a single page (service providers) — parser handles it fine
-- Session can expire during long crawls — `--resume` handles this
+Connects to Edge (port 9222) with an open SYSPER2 tab. Reads `var jsTreeData = {...}` from the page — this contains the entire org tree with `ouId` numbers. Then for each DG:
+
+1. Fetch `/SYSPER2/org/vieworganisationjobs_jd.do?ouId=XXX` via in-browser `fetch()`
+2. Parse HTML: split on `function showJobDetails_XXX_N()`, extract TDs after each split
+3. TD order: [name, jobTitle, location, statute, occupation, headOfEntity, management, funcGroup]
+4. Also parse `jsTreeData` from response to discover child ouIds
+5. Recurse into children, 200ms delay between fetches
+
+The tree is lazy: only currently-expanded nodes have children in the initial `jsTreeData`. Closed DGs get their children discovered when we fetch their page.
+
+## Name Matching (SYSPER → AD)
+
+SYSPER names: "Eric DERRUINE", AD uses: "derruer" (SamAccountName). Three-tier matching:
+
+1. **Name match** (68%): `"${givenName} ${surname}".toLowerCase()` on both sides
+2. **A4 Excel** (DIGIT.A.4 only): spreadsheet has username + full name for all A4 staff
+3. **Phone bridge**: Who-is-Who has (name, phone), AD has (phone, username). For unmatched SYSPER names, find them in WiW by name → get phone → find AD by phone (last 6 digits)
+
+Result: 69% matched overall (39,931 / 58,239).
+
+## DIGIT.A.4 Special Handling
+
+External providers (PREST) are all in SYSPER under `DIGIT.A.4.005`. In reality they belong to teams within sectors 001-004. The A4 Excel spreadsheet (`data/digit_a4_staff.xlsx`) provides:
+- Column F: Team name (e.g. "EC-Answer", "ECI")
+- Column G: Real sector (e.g. "DIGIT.A4.001" — note: no dot between A and 4)
+- Column L: Status (STAT/PREST)
+
+`build_data.cjs` moves PRESTataires from .005 to their real sector, creating team sub-nodes.
+
+## Privacy Model
+
+We only use data fields available in public/semi-public sources (AD, address book, Who-is-Who):
+- ✅ Name, job title, org unit, location, email, phone, office, photo
+- ❌ Statute, function group, grade, management flag, head of entity, occupation status, job ID
+
+The SYSPER crawler collects all fields (needed for matching) but `build_data.cjs` strips non-public fields before outputting.
+
+## Known Issues
+
+- `funcGroup` in sysper_people.json contains "version: Active" suffix — harmless since we don't expose it
+- Some job titles are just city codes (BRU/LUX) when SYSPER has no real title — webapp filters these out
+- 32% of people have no AD match (mostly externals not in EC LDAP)
+- The `photos/` junction uses an absolute path — won't work if project moves
+
+## File Sizes
+
+- `sysper_people.json`: ~14 MB (58K people)
+- `ad_details.csv`: ~5 MB (49K users)
+- `photos/`: ~40 MB (21K JPEGs, ~2KB each)
+- `ec_directory.json`: ~18 MB (webapp data)

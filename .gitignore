@@ -4,6 +4,7 @@ node_modules/
 data/
 webapp/public/ec_directory.json
 webapp/public/ec_directory_*.json
+webapp/public/photos/
 
 # Legacy exploration artifacts
 legacy/

@@ -44,11 +44,20 @@
     .org-card .people-count { font-size: 0.75rem; color: #999; }
 
     .people-list { margin-top: 0.5rem; }
-    .person { display: flex; justify-content: space-between; align-items: baseline; padding: 0.3rem 0; border-top: 1px solid #f0f0f0; font-size: 0.85rem; }
+    .person { display: flex; justify-content: space-between; align-items: center; padding: 0.35rem 0; border-top: 1px solid #f0f0f0; font-size: 0.85rem; }
     .person:first-child { border-top: none; }
+    .person .p-left { display: flex; align-items: center; gap: 0.4rem; }
+    .person .p-photo { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; background: #e0e0e0; flex-shrink: 0; }
+    .person .p-photo-placeholder { width: 26px; height: 26px; flex-shrink: 0; }
     .person .p-name { font-weight: 500; white-space: nowrap; }
     .person .p-name.highlight { background: #ffe066; padding: 0 3px; border-radius: 3px; }
+    .person .p-name-block { display: flex; flex-direction: column; position: relative; }
     .person .p-function { color: #666; font-size: 0.8rem; text-align: right; margin-left: 1rem; }
+
+    .tooltip { display: none; position: absolute; left: 0; top: 100%; z-index: 200; background: white; border: 1px solid #ccc; border-radius: 6px; padding: 0.5rem 0.7rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); font-size: 0.78rem; color: #444; white-space: nowrap; margin-top: 4px; }
+    .tooltip .tooltip-photo { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; margin-bottom: 0.4rem; display: block; }
+    .tooltip .tooltip-details { line-height: 1.5; }
+    .person:hover .tooltip { display: block; }
 
     .children-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0.5rem; }
 
@@ -65,7 +74,7 @@
   <div class="header">
     <div>
       <h1>EC Directory Explorer</h1>
-      <div class="subtitle">European Commission – Who is Who</div>
+      <div class="subtitle">European Commission – Who is Who · <span id="dataDate"></span></div>
     </div>
   </div>
 
@@ -86,6 +95,10 @@
       .then(data => {
         DATA = data;
         document.getElementById('searchInput').focus();
+        if (data.meta && data.meta.generatedAt) {
+          const d = new Date(data.meta.generatedAt);
+          document.getElementById('dataDate').textContent = 'Data from ' + d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+        }
       })
       .catch(err => {
         console.error('Failed to load data:', err);
@@ -100,6 +113,14 @@
     searchInput.addEventListener('input', () => {
       clearTimeout(debounceTimer);
       debounceTimer = setTimeout(doSearch, 150);
+    });
+
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const firstItem = searchResults.querySelector('.search-item');
+        if (firstItem) firstItem.click();
+      }
     });
 
     searchInput.addEventListener('focus', () => {
@@ -223,9 +244,22 @@
         for (const p of shown) {
           const isHighlighted = currentHighlight && p.name === currentHighlight;
           const displayName = p.name;
-          const displayFunc = p.title || p.function || '';
+          const isExternal = p.email && p.email.includes('@ext.');
+          const extBadge = isExternal ? ' <span style="color:#999;font-weight:normal;font-size:0.75rem">(EXT)</span>' : '';
+          const rawFunc = p.title || p.function || '';
+          const displayFunc = (rawFunc === 'BRU' || rawFunc === 'LUX') ? '' : rawFunc;
+          const photoHtml = p.username 
+            ? `<img class="p-photo" src="public/photos/${p.username}.jpg" onerror="this.style.display='none'" alt="">` 
+            : `<span class="p-photo-placeholder"></span>`;
+          const detailParts = [p.email, p.phone, p.office, p.location].filter(Boolean);
+          const tooltipPhoto = p.username 
+            ? `<img class="tooltip-photo" src="public/photos/${p.username}.jpg" onerror="this.style.display='none'" alt="">` 
+            : '';
+          const tooltipHtml = (p.username || detailParts.length > 0)
+            ? `<span class="tooltip">${tooltipPhoto}<span class="tooltip-details">${detailParts.join('<br>')}</span></span>` 
+            : '';
           html += `<div class="person">`;
-          html += `<span class="p-name${isHighlighted ? ' highlight' : ''}">${displayName}</span>`;
+          html += `<span class="p-left">${photoHtml}<span class="p-name-block"><span class="p-name${isHighlighted ? ' highlight' : ''}">${displayName}${extBadge}</span>${tooltipHtml}</span></span>`;
           html += `<span class="p-function">${displayFunc}</span>`;
           html += `</div>`;
         }

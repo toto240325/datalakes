@@ -31,3 +31,36 @@ You can do this by using playwright and using my edge session currently running 
 -------------------------
 based on the data we have collected on the people and on the organigram (structure and names of the DGs/directorates/units), please propose a way to exploit as well as possible.  My goal is to have a webapp with a search box where i can enter a name and the app will represent for me the organigram 1 level above and one level below that person, with the names and title of the people aroud that person, and ideally the possibility to navigate in that organigram
 ------------------------
+
+
+
+
+
+
+need to display (EXT) if SP
+
+first option chosen by enter
+
+picture after name, not before
+
+important to have date of last download
+
+detailed info when hovering, + picture
+
+summary of organigram that can be pasted in mynotes3
+
+mobile version; 0.0.0.0; please on server ?
+
+A.4.005 special case
+
+search on first name + dg + anythign ?
+
+SNC data ?
+what is considered public is what is in who's who of OP, address book of outlook (which is in C:\Users\derruer\AppData\Local\Microsoft\Outlook\Offline Address Books\09eadbe0-0ab9-418a-840d-5a5559cc00d8)
+
+maybe other interesting info in address book ?
+
+any useful skills, or steering, or mcp, or hook to add here ?
+
+
+

@@ -51,3 +51,28 @@ node crawl_people.js --resume             # resume if interrupted
 When finished: 
 node webapp/build_data.cjs to rebuild the webapp data
 then refresh the browser at http://localhost:8080
+
+--------------------------------------------
+
+
+
+
+| Field                   | Who-is-Who | AD/LDAP (semi-public)     | Outlook  | SYSPER   |
+|                         |            |                           | Addr.Book|          | 
+|-------------------------|------------|---------------------------|----------|----------|
+| Name                    | ✅         | ✅                        | ✅       | ✅     |
+| Job title/function      | ✅         | ❌ (only Mr/Ms)           | ❌       | ✅     |
+| Org unit (DG/Unit)      | ✅         | ✅ (department)           | ✅       | ✅     |
+| Phone                   | ✅         | ✅ (officePhone)          | ✅       | ❌     |
+| Email                   | ❌         | ✅ (mail)                 | ✅       | ❌     |
+| Location (city)         | ❌         | ✅ (City: BRU/LUX)        | ✅       | ✅     |
+| Office room             | ❌         | ✅ (Office: L107 08/DCS)  | ✅       | ❌     |
+| Photo                   | ❌         | ✅ (thumbnailPhoto)       | ✅       | ❌     |
+| Mobile                  | ❌         | ✅                        | ❌       | ❌     |
+| Statute (FP/CA/CB)      | ❌         | ❌                        | ❌       | ✅ ⚠️  |
+| Function group (AD/AST) | ❌         | ❌                        | ❌       | ✅ ⚠️  |
+| Management flag         | ❌         | ❌                        | ❌       | ✅ ⚠️  |
+| Head of entity          | ❌         | ❌                        | ❌       | ✅ ⚠️  |
+| Occupation type         | ❌         | ❌                        | ❌       | ✅ ⚠️  |
+| Job ID                  | ❌         | ❌                        | ❌       | ✅ ⚠️  |
+| EmployeeType (O/ext)    | ❌         | ✅                        | ❌       | ❌      |
