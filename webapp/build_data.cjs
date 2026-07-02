@@ -42,6 +42,7 @@ if (fs.existsSync(AD_FILE)) {
         email: (mail || '').trim(),
         phone: (phone || '').trim(),
         office: (office || '').trim(),
+        dept: (dept || '').trim(),
       };
       const key = `${givenName} ${surname}`.trim().toLowerCase();
       adMap.set(key, entry);
@@ -117,9 +118,29 @@ for (const person of people) {
     orgMap[code] = { code, name: person.unitName || code, parent: parentCode, dg: person.dg, children: [], people: [] };
   }
 
-  // Match to AD: try name first, then A4 direct username, then phone fallback
+  // Match to AD: try name first (with DG validation), then A4 direct username, then phone fallback
   const nameKey = person.name.trim().toLowerCase();
-  let ad = adMap.get(nameKey);
+  let ad = null;
+  
+  // Primary: name match + DG validation (avoid cross-DG collisions)
+  const adCandidate = adMap.get(nameKey);
+  if (adCandidate) {
+    // Verify the AD department aligns with SYSPER unit
+    // AD dept: "DIGIT.A.4" or "REA"; SYSPER dg: "DIGIT" or "RTD"
+    const adDept = (adCandidate.dept || '').toUpperCase();
+    const sysperUnit = (person.unit || '').toUpperCase();
+    const sysperDg = (person.dg || '').toUpperCase();
+    
+    // Match if AD dept starts with SYSPER DG or unit code
+    const deptMatchesDg = adDept.startsWith(sysperDg);
+    const deptMatchesUnit = adDept.startsWith(sysperUnit.split('.').slice(0, 2).join('.'));
+    const unitMatchesDept = sysperUnit.startsWith(adDept.split('.').slice(0, 1).join('.'));
+    
+    if (deptMatchesDg || deptMatchesUnit || unitMatchesDept || sysperDg === '') {
+      ad = adCandidate;
+    }
+    // If none match, skip (likely a name collision with someone in a different DG)
+  }
   
   // Fallback 1: A4 Excel direct username mapping
   if (!ad) {
@@ -177,9 +198,24 @@ if (fs.existsSync(A4_EXCEL_FILE)) {
     const srcCode = 'DIGIT.A.4.005';
     if (!orgMap[srcCode]) continue;
 
-    const personIdx = orgMap[srcCode].people.findIndex(p => 
-      p.name.toLowerCase() === fullName.trim().toLowerCase()
-    );
+    const personIdx = orgMap[srcCode].people.findIndex(p => {
+      let pName = p.name.toLowerCase().replace(/&#39;/g, "'").replace(/&amp;/g, '&');
+      const xlName = fullName.trim().toLowerCase();
+      if (pName === xlName) return true;
+      // Fuzzy: match if all words of the shorter name are contained in the longer one
+      const pWords = pName.split(/[\s\-]+/);
+      const xlWords = xlName.split(/[\s\-]+/);
+      const shorter = pWords.length <= xlWords.length ? pWords : xlWords;
+      const longer = pWords.length > xlWords.length ? pWords : xlWords;
+      const longerStr = longer.join(' ');
+      // All words of shorter must appear in longer (handles extra middle names/surname parts)
+      const allFound = shorter.every(w => longerStr.includes(w) || longer.some(l => l.startsWith(w) || w.startsWith(l)));
+      // Must share at least the surname (last word of each)
+      const pLast = pWords[pWords.length - 1];
+      const xlLast = xlWords[xlWords.length - 1];
+      const surnameMatch = pLast === xlLast || pWords.includes(xlLast) || xlWords.includes(pLast);
+      return allFound && surnameMatch;
+    });
     if (personIdx === -1) continue;
 
     const person = orgMap[srcCode].people.splice(personIdx, 1)[0];

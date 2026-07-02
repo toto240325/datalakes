@@ -131,6 +131,15 @@
       if (!e.target.closest('.search-container')) searchResults.classList.add('hidden');
     });
 
+    function surnameFirst(name) {
+      // "Davide ROMEO" -> "ROMEO Davide"
+      const parts = name.split(' ');
+      const upper = parts.filter(p => p === p.toUpperCase() && p.length > 1);
+      const rest = parts.filter(p => p !== p.toUpperCase() || p.length <= 1);
+      if (upper.length > 0) return upper.join(' ') + ' ' + rest.join(' ');
+      return name;
+    }
+
     function doSearch() {
       const query = searchInput.value.trim().toLowerCase();
       if (!query || query.length < 2 || !DATA) {
@@ -138,16 +147,23 @@
         return;
       }
 
-      const matches = DATA.peopleIndex.filter(p => 
-        p.name.toLowerCase().includes(query)
-      ).slice(0, 20);
+      // Split query into parts to support "surname firstname" search
+      const queryParts = query.split(/\s+/);
+      
+      const matches = DATA.peopleIndex.filter(p => {
+        const name = p.name.toLowerCase();
+        // Single term: match anywhere in name
+        if (queryParts.length === 1) return name.includes(query);
+        // Multiple terms: all parts must be found in the name (any order)
+        return queryParts.every(part => name.includes(part));
+      }).slice(0, 20);
 
       if (matches.length === 0) {
         searchResults.innerHTML = '<div class="search-item"><span class="detail">No results found</span></div>';
       } else {
         searchResults.innerHTML = matches.map(p => `
           <div class="search-item" data-unit="${p.unit}" data-name="${p.name}">
-            <div class="name">${highlightMatch(p.name, query)}</div>
+            <div class="name">${highlightMatch(surnameFirst(p.name), query)}</div>
             <div class="detail">${p.function || '(no function)'} — ${p.unitName} (${p.unit})</div>
           </div>
         `).join('');

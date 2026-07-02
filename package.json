@@ -1,6 +1,6 @@
 {
   "name": "ec-datalakes",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "EC staff directory tools - crawlers and webapp",
   "dependencies": {
     "puppeteer-core": "^25.2.1",

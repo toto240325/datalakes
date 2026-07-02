@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.0
+
+- Fixed cross-DG name collisions: AD matching now validates department alignment (717 potential collisions avoided)
+- Improved A4 PREST relocation: fuzzy name matching handles variants (Steve/Stephen, HTML entities, composed surnames, middle names)
+- All 140 DIGIT.A.4 service providers now correctly relocated to their real sectors/teams
+- Search dropdown now displays names as "SURNAME Firstname" for clarity
+- Search supports multi-word queries in any order (e.g. "romeo david")
+- Enter key selects first search result
+- Removed photos from git tracking (now served via junction, gitignored)
+
 ## 0.3.0
 
 - Added AD details enrichment (email, phone, office) via `export_ad_details.ps1`
