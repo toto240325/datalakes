@@ -22,3 +22,13 @@ Desktop.ini
 .vscode/
 *.swp
 *.swo
+
+# .env
+.env
+
+# PoC API credentials
+PoC_API/creds.txt
+
+# Standalone builds (contain inlined data)
+webapp/standalone/
+

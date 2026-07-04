@@ -23,6 +23,9 @@ A4 Excel ───────────┘                                   
 
 ## SYSPER2 Crawler — How It Works
 
+**Prerequisites**: Edge must be running with `--remote-debugging-port=9222`. The user must be logged into EU Login SSO in that Edge instance (SYSPER2 is protected by EU Login SSO). The crawler script can then navigate to the organigram page itself via puppeteer — no manual navigation needed. It will go to:
+`https://intracomm.ec.testa.eu/SYSPER2/org/vieworganisationjobs_jd.do?ouId=242921`
+
 Connects to Edge (port 9222) with an open SYSPER2 tab. Reads `var jsTreeData = {...}` from the page — this contains the entire org tree with `ouId` numbers. Then for each DG:
 
 1. Fetch `/SYSPER2/org/vieworganisationjobs_jd.do?ouId=XXX` via in-browser `fetch()`

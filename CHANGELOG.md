@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.5.0
+
+- Added standalone HTML version: single self-contained file (~18 MB), no server needed
+- Added `webapp/build_standalone.cjs` generator script
+- Added architecture documentation with Mermaid diagrams (`doc/architecture.md`)
+- Added OP Portal API investigation (`PoC_API/`) — concluded not useful (management-only)
+- Added username display in hover tooltips
+- Updated data pipeline notes in `catch-up.md` (SYSPER navigation via Puppeteer)
+- Updated `.gitignore`: PoC_API credentials, standalone builds
+- Refreshed all data to 2026-07-04 (58,224 people, 49,357 AD users, 21,222 photos)
+
 ## 0.4.0
 
 - Fixed cross-DG name collisions: AD matching now validates department alignment (717 potential collisions avoided)

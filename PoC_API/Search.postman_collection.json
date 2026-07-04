@@ -1,0 +1,2843 @@
+{
+  "info": {
+    "_postman_id": "e7951e62-337e-43ba-a717-d51ca4795ad6",
+    "name": "Search",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "41853241",
+    "_collection_link": "https://go.postman.co/collection/41853241-e7951e62-337e-43ba-a717-d51ca4795ad6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "/search/1.0/simple",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "travel in europe",
+              "description": "Mandatory. The search query terms are provided using the q parameter. Exact or partial exact match is provided using double quotes. For example: The authentic versions of the \"relevant acts\" is looking for The AND authentic AND versions AND of AND the AND relevant IMMEDIATELY FOLLOWED BY acts",
+              "type": "text"
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "description": "Specifies the language of the user. This parameter is used to influence the relevancy of search results: search results in the same language as the host language may be promoted. The parameter must be provided in uppercase.",
+              "type": "text"
+            },
+            {
+              "key": "filter.collection",
+              "value": "general_publication",
+              "description": "Specifies the filter on collection. This parameter is repeatable, but could not be provided more than 1024 times. This parameter must be provided in lowercase.",
+              "type": "text"
+            },
+            {
+              "key": "ps",
+              "value": "10",
+              "description": "Specifies the page size of the search result. A maximum of 50 items per page are allowed.",
+              "type": "text"
+            },
+            {
+              "key": "p",
+              "value": "10",
+              "description": "Specifies the page number to return, using zero based numbering.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "sort",
+              "value": "title,asc",
+              "description": "Specifies the sorting of the search results. The parameter is composed of the field with an optional order. If the order is specified than the field as to be followed by a comma and then the order. If the order is not specified desc is used by default for relevancy and date, while asc is used by default for title and author and originalAuthor. The parameter must be provided in lowercase.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "field.fetch.name",
+              "value": "one of: eurovoc_subject, domain, relation, language, title, description, author, originalAuthor, personalAuthor, collection, publicationDate, format, doi, isbn, issn, catalogue_number, celex, ecli, eli, oj, thumbnail, study, predecessor, successor, edition",
+              "description": "Specifies the list of fields to be fetched. This parameter must be provided in lowercase. ",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "field.highlight.name",
+              "value": "one of: title, description, author, originalAuthor, eurovoc_subject",
+              "description": "Specifies the list of field to highlight. This parameter must be provided in lowercase.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.name",
+              "value": "language",
+              "description": "Specifies the list of facet to be generated. The parameter is case sensitive.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.author.s",
+              "value": "10",
+              "description": "Specifies the size of the author facet. If the value is set to 0, all values are returned.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.authorHierarchy.s",
+              "value": "10",
+              "description": "Specifies the size of the authorHierarchy facet. If the value is set to 0, all values are returned.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.s",
+              "value": "10",
+              "description": "Specifies the size of the collection facet. If the value is set to 0, all values are returned.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.eurovoc.subject.s",
+              "value": "10",
+              "description": "Specifies the size of the EUROVOC subject facet. If the value is set to 0, all values are returned.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.format.s",
+              "value": "10",
+              "description": "Specifies the size of the document format facet. If the value is set to 0, all values are returned.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.language.s",
+              "value": "10",
+              "description": "Specifies the size of the language facet. If the value is set to 0, all values are returned.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.publicationDateYear.s",
+              "value": "10",
+              "description": "Specifies the size of the publication date year facet. If the value is set to 0, all values are returned.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.study.s",
+              "value": "10",
+              "description": "Specifies the size of the study facet. If the value is set to 0, all values are returned.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.author",
+              "value": "corporate-body.EURUN",
+              "description": "Specifies the filter on current author and original author, using NAL codes. Check the chapter Named authority Lists (NAL) support. This parameter is repeatable, and could not be provided more than 1024 times. This parameter is case-sensitive.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.authorHierarchy",
+              "value": "corporate-body.EURUN",
+              "description": "Specifies the filter on current author hiearchy, using NAL codes. Check the chapter Named authority Lists (NAL) support. This parameter is repeatable, and could not be provided more than 1024 times. This parameter is case-sensitive.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.eurovoc.subject",
+              "value": "eurovoc.286",
+              "description": "Specifies the filter on EUROVOC subject, using NAL codes. Check the chapter Named authority Lists (NAL) support. This parameter is repeatable, and could not be provided more than 1024 times. This parameter is case-sensitive.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.format",
+              "value": "HTML",
+              "description": "Specifies the filter on document format, using uppercase values. This parameter is repeatable, and could not be provided more than 1024 times. The parameter must be provided in uppercase.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.language",
+              "value": "one of: ARA, AZE, BOS, BUL, CAT, CES, CYM, DAN, DEU, ELL, ENG, EST, EUS, FAS, FIN, FRA, GLE, HEB, HIN, HRV, HUN, HYE, ISL, ITA, JPN, KAT, KHM, KOR, KUR, LAV, LIT, LTZ, MKD, MLT, MOL, NLD, NOR, POL, POR, PUS, RON, RUS, SIN, SLK, SLV, SOM, SPA, SQI, SRP, SWA, SWE, TAM, TIR, TUR, UKR, URD, VIE, ZHO",
+              "description": "Specifies the filter on language using ISO 3166-1 alpha-3 code format. This parameter is repeatable, and could not be provided more than 1024 times. The parameter must be provided in uppercase.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.publicationDateYear",
+              "value": "1984",
+              "description": "Specifies the filter on publication date year, using YYYY format. This parameter is repeatable, and could not be provided more than 1024 times.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.study",
+              "value": "evaluation",
+              "description": "Specifies the filter on study. This parameter is repeatable, and could not be provided more than 1024 times. This parameter is case-sensitive.",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "q.micr",
+              "value": "german",
+              "description": "Specifies the micro search term. In addition to the mandatory term specified using the q parameter, addtionnal term could be provided using micro search. An AND operator is performed between the q term, and the various micro search values. Example: (q: voyager AND ((q.micr: europe) OR (q.micr: spain))) Exact or partial exact match is provided using double quotes. For example: The authentic versions of the \"relevant acts\" is looking for The AND authentic AND versions AND of AND the AND relevant IMMEDIATELY FOLLOWED BY acts This parameter is repeatable, but could not be provided more than 1024 times.",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/simple",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "simple"
+          ]
+        },
+        "description": "The simple search allows to search only by using a simple input field."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/simple boosts",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "travel in europe",
+              "description": "Mandatory. The search query terms are provided using the q parameter. Exact or partial exact match is provided using double quotes. For example: The authentic versions of the \"relevant acts\" is looking for The AND authentic AND versions AND of AND the AND relevant IMMEDIATELY FOLLOWED BY acts",
+              "type": "text"
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "description": "Specifies the language of the user. This parameter is used to influence the relevancy of search results: search results in the same language as the host language may be promoted. The parameter must be provided in uppercase.",
+              "type": "text"
+            },
+            {
+              "key": "filter.collection",
+              "value": "general_publication",
+              "description": "Specifies the filter on collection. This parameter is repeatable, but could not be provided more than 1024 times. This parameter must be provided in lowercase.",
+              "type": "text"
+            },
+            {
+              "key": "ps",
+              "value": "10",
+              "description": "Specifies the page size of the search result. A maximum of 50 items per page are allowed.",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.defaultBoost",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.titles",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.descriptions",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.catalogue_numbers",
+              "value": "500",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.celex",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.doi",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.ecli",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.eli",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.isbn",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.issn",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.oj",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.relations",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.languages",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.contents",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.authors_label",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.eurovoc_subjects_label",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.freshness_active",
+              "value": "true",
+              "description": "#[OPPSEARCH-210] - https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-function-score-query.html#function-decay",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.freshness_scale",
+              "value": "1800d",
+              "description": "#[OPPSEARCH-210] - https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-function-score-query.html#function-decay",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.freshness_offset",
+              "value": "30d",
+              "description": "#[OPPSEARCH-210] - https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-function-score-query.html#function-decay",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.freshness_decay",
+              "value": "0.6",
+              "description": "#[OPPSEARCH-210] - https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-function-score-query.html#function-decay",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.negative_boost_enabled",
+              "value": "true",
+              "description": "#[OPPSEARCH-179] - https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-boosting-query.html",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.negative_boost_targets",
+              "value": "official-journal,special-official-journal,table-of-contents",
+              "description": "#[OPPSEARCH-179] - https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-boosting-query.html",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.negative_boost_value",
+              "value": "0.5",
+              "description": "#[OPPSEARCH-179] - https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-boosting-query.html",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.enabled",
+              "value": "true",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.cutoff_frequency",
+              "value": "0.001",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.boost",
+              "value": "10",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.low_freq_operator_enabled",
+              "value": "true",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.low_freq_operator",
+              "value": "and",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.minimum_should_match_simple_enabled",
+              "value": "false",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.minimum_should_match_complex_enabled",
+              "value": "false",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.minimum_should_match",
+              "value": "2",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.minimum_should_match_low_freq",
+              "value": "2",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.common_terms_query.minimum_should_match_high_freq",
+              "value": "2",
+              "description": "#[OPPSEARCH-405] Search for common words in titles",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.anonymized_enabled",
+              "value": "false",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.anonymized_parameters",
+              "value": "q,q.micr",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/simple",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "simple"
+          ]
+        },
+        "description": "The simple search allows to search only by using a simple input field.\nParameters starting with search.parameters. specifies the search configuration that can be overriden."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/advanced",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "travel in europe",
+              "type": "text"
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "type": "text"
+            },
+            {
+              "key": "filter.collection",
+              "value": "general_publication",
+              "type": "text"
+            },
+            {
+              "key": "ps",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "p",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "sort",
+              "value": "title,asc",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "field.fetch.name",
+              "value": "one of: eurovoc_subject, domain, relation, language, title, description, author, originalAuthor, personalAuthor, collection, publicationDate, format, doi, isbn, issn, catalogue_number, celex, ecli, eli, oj, thumbnail, study, predecessor, successor, edition",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "field.highlight.name",
+              "value": "one of: title, description, author, originalAuthor, eurovoc_subject",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.name",
+              "value": "language",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.author.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.authorHierarchy.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.eurovoc.subject.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.format.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.language.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.publicationDateYear.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.study.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.author",
+              "value": "corporate-body.EURUN",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.authorHierarchy",
+              "value": "corporate-body.EURUN",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.eurovoc.subject",
+              "value": "eurovoc.286",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.format",
+              "value": "HTML",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.language",
+              "value": "one of: ARA, AZE, BOS, BUL, CAT, CES, CYM, DAN, DEU, ELL, ENG, EST, EUS, FAS, FIN, FRA, GLE, HEB, HIN, HRV, HUN, HYE, ISL, ITA, JPN, KAT, KHM, KOR, KUR, LAV, LIT, LTZ, MKD, MLT, MOL, NLD, NOR, POL, POR, PUS, RON, RUS, SIN, SLK, SLV, SOM, SPA, SQI, SRP, SWA, SWE, TAM, TIR, TUR, UKR, URD, VIE, ZHO",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.publicationDateYear",
+              "value": "1984",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.study",
+              "value": "evaluation",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.publicationDate.from",
+              "value": "2003-12-01",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.publicationDate.from",
+              "value": "2003-12-12",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.isbn",
+              "value": "evaluation",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.issn",
+              "value": "1977060X",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.catalogueNumber",
+              "value": "NA-02-13-714-HU-C",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.celex",
+              "value": "32015R0274",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.ecli",
+              "value": "ECLI:EU:T:2014:774",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.eli",
+              "value": "http://data.europa.eu/eli/reg_impl/2015/274/oj",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.oj",
+              "value": "JOL_2015_047_R_0008",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.eurovocDomain",
+              "value": "eurovoc_domain.32",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "q.micr",
+              "value": "german",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/advanced",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "advanced"
+          ]
+        },
+        "description": "The advanced search provides more filtering capability."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/get",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "field.fetch.name",
+              "value": "domain",
+              "description": "one of: eurovoc_subject, domain, relation, language, title, description, author, originalAuthor, personalAuthor, collection, publicationDate, format, doi, isbn, issn, catalogue_number, celex, ecli, eli, oj, thumbnail, study, predecessor, successor, edition, eurovoc_subject, domain, relation, language, title, description, author, originalAuthor, personalAuthor, collection, publicationDate, format, doi, isbn, issn, catalogue_number, celex, ecli, eli, oj, thumbnail, study, predecessor, successor, edition",
+              "type": "text"
+            },
+            {
+              "key": "filter.id",
+              "value": "4e2fc8ab-a2c8-11e3-9f91-01aa75ed71a1",
+              "type": "text"
+            },
+            {
+              "key": "filter.language",
+              "value": "ENG",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/get",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "get"
+          ]
+        },
+        "description": "The get search allows to retrieve an expression by its id and language with a fallback on a deterministic list of language"
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/browsebysubject",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "type": "text"
+            },
+            {
+              "key": "filter.eurovoc.domain",
+              "value": "eurovoc_domain.32",
+              "type": "text"
+            },
+            {
+              "key": "filter.eurovoc.subdomain",
+              "value": "eurovoc_subdomain.3206",
+              "type": "text"
+            },
+            {
+              "key": "filter.eurovoc.subject",
+              "value": "eurovoc.286",
+              "type": "text"
+            },
+            {
+              "key": "ps",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "p",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "sort",
+              "value": "title,asc",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "field.fetch.name",
+              "value": "one of: eurovoc_subject, domain, relation, language, title, description, author, originalAuthor, personalAuthor, collection, publicationDate, format, doi, isbn, issn, catalogue_number, celex, ecli, eli, oj, thumbnail, study, predecessor, successor, edition",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "field.highlight.name",
+              "value": "one of: title, description, author, originalAuthor, eurovoc_subject",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.name",
+              "value": "language",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.author.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.authorHierarchy.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.eurovoc.subject.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.format.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.language.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.publicationDateYear.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.study.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.author",
+              "value": "corporate-body.EURUN",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.authorHierarchy",
+              "value": "corporate-body.EURUN",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection",
+              "value": "general_publication",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.format",
+              "value": "HTML",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.language",
+              "value": "one of: ARA, AZE, BOS, BUL, CAT, CES, CYM, DAN, DEU, ELL, ENG, EST, EUS, FAS, FIN, FRA, GLE, HEB, HIN, HRV, HUN, HYE, ISL, ITA, JPN, KAT, KHM, KOR, KUR, LAV, LIT, LTZ, MKD, MLT, MOL, NLD, NOR, POL, POR, PUS, RON, RUS, SIN, SLK, SLV, SOM, SPA, SQI, SRP, SWA, SWE, TAM, TIR, TUR, UKR, URD, VIE, ZHO",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.publicationDateYear",
+              "value": "1984",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.study",
+              "value": "evaluation",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/browsebysubject",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "browsebysubject"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/autocomplete",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "travel in europe",
+              "type": "text"
+            },
+            {
+              "key": "filter.collection",
+              "value": "general_publication",
+              "type": "text"
+            },
+            {
+              "key": "s",
+              "value": "5",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/autocomplete?=",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "autocomplete"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "description": "The autocomplete search provides suggestion based on the input term."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/autocomplete-author",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "astrid",
+              "type": "text"
+            },
+            {
+              "key": "filter.collection",
+              "value": "general_publication",
+              "type": "text"
+            },
+            {
+              "key": "s",
+              "value": "5",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/autocomplete-author",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "autocomplete-author"
+          ]
+        },
+        "description": "The author autocomplete search provides suggestion based on the input term."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/explorer",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/explorer",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "explorer"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/facet",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "filter.collection",
+              "value": "general_publication",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.name",
+              "value": "language",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.author.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.authorHierarchy.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.eurovoc.subject.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.format.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.language.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.publicationDateYear.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.study.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/facet",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "facet"
+          ]
+        },
+        "description": "The facet operations allows to build a list of distinct values for specific fields."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/findsimilar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "004cd0e4-14b5-45d6-a575-b5a6766b2175.0001",
+              "type": "text"
+            },
+            {
+              "key": "s",
+              "value": "5",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "p",
+              "value": "5",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "field.highlight.name",
+              "value": "title",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "field.fetch.name",
+              "value": "originalAuthor",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "exclude.parent_id",
+              "value": "72755e50-eca9-11e4-892c-01aa75ed71a1",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/findsimilar",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "findsimilar"
+          ]
+        },
+        "description": "The find similar operations allows to retrieve a list of similar documents based on the document identifier given as parameter."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/euv/simple",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "political",
+              "type": "text"
+            },
+            {
+              "key": "q.eurovoc",
+              "value": "true",
+              "description": "Search in eurovoc only iso all collection",
+              "type": "text"
+            },
+            {
+              "key": "q.resourceType",
+              "value": "eurovoc",
+              "description": "Search in eurovoc only iso all collection",
+              "type": "text"
+            },
+            {
+              "key": "q.micr",
+              "value": "agency",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "p",
+              "value": "13",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "ps",
+              "value": "13",
+              "type": "text"
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "type": "text"
+            },
+            {
+              "key": "sort",
+              "value": "inScheme,desc",
+              "type": "text"
+            },
+            {
+              "key": "filter.collection",
+              "value": "concept",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.broaderConcept",
+              "value": "http://publications.europa.eu/resource/authority/position-status",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.relatedConcept",
+              "value": "http://publications.europa.eu/resource/authority/position-status",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.context",
+              "value": "http://publications.europa.eu/resource/authority/use-context/EURLEX",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.status",
+              "value": "http://publications.europa.eu/resource/authority/concept-status/CURRENT",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.inScheme",
+              "value": "http://publications.europa.eu/resource/authority/position-status",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.hasPart",
+              "value": "http://publications.europa.eu/resource/authority/concept-status/CURRENT",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.isPartOf",
+              "value": "http://publications.europa.eu/resource/authority/concept-status/CURRENT",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.language",
+              "value": "http://publications.europa.eu/resource/language/ITA",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.publisher",
+              "value": "http://publications.europa.eu/resource/authority/corporate-body/PUBL",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.assetType",
+              "value": "http://publications.europa.eu/resource/authority/dataset-type/TAXONOMY",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.theme",
+              "value": "http://publications.europa.eu/resource/authority/data-theme/AGRI",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.createdYear",
+              "value": "2015",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.modifiedYear",
+              "value": "2014",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.name",
+              "value": "language",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.broaderConcept.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.relatedConcept.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.context.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.status.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.inScheme.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.hasPart.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.isPartOf.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.language.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.publisher.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.assetType.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.theme.s",
+              "value": "10",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.createdYear.s",
+              "value": "2014",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.createdYear.s",
+              "value": "2015",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/euv/simple",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "euv",
+            "simple"
+          ]
+        },
+        "description": "The simple search allows to search only by using a simple input field."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/euv/simple boosts",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "political",
+              "type": "text"
+            },
+            {
+              "key": "q.resourceType",
+              "value": "eurovoc",
+              "description": "Search in eurovoc only iso all collection",
+              "type": "text"
+            },
+            {
+              "key": "ps",
+              "value": "13",
+              "type": "text"
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.defaultBoost",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.id_analyzed",
+              "value": "0",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.pref_labels",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.alt_labels",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.labels",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.definitions",
+              "value": "8",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.scope_notes",
+              "value": "7",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.history_notes",
+              "value": "6",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.authority_code",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.title",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "earch.parameters.euvoc.boosts.descriptions",
+              "value": "9",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.keywords",
+              "value": "3",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.identifier",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.comments",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.notations",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.pref_labels_hlan",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.alt_labels_hlan",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.labels_hlan",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.definitions_hlan",
+              "value": "9",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.scope_notes_hlan",
+              "value": "9",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.history_notes_hlan",
+              "value": "6",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.title_hlan",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.descriptions_hlan",
+              "value": "9",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.comments_hlan",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.pref_labels_standard",
+              "value": "250",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.alt_labels_standard",
+              "value": "250",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.labels_standard",
+              "value": "250",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.contents",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.eurovoc_subjects_label",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.authors_label",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.contents_hlan",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.authors_label_hlan",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.doi",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.isbn",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.issn",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.catalogue_numbers",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.celex",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.ecli",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.eli",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.oj",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.negative_boost_targets",
+              "value": "fd_010,fd_013,fd_014,fd_020,fd_030,fd_040,fd_050,fd_060,fd_070,fd_080,fd_091,fd_100,fd_110,fd_130,fd_140,fd_160,fd_271,fd_274,fd_285,fd_290,fd_300,fd_301,fd_305,fd_325,fd_330,fd_335,fd_340,fd_345,fd_350,fd_361,fd_365,fd_370,fd_375,fd_380,fd_395,fd_396,fd_400,fd_401,fd_406,fd_499,fd_500,fd_501,fd_535,fd_537,fd_555,fd_557,fd_577,fd_578,fd_600,fd_601,fd_602,fd_603,fd_604,fd_605,fd_606,fd_607,fd_608,fd_609,fd_610,fd_611,fd_612,fd_613,fd_700,PUB_BIND,PUB_CLASSIF,PUB_COLL,PUB_DIME,PUB_DIV,PUB_FREQ,PUB_GMD,PUB_LANG,PUB_LNGISO,PUB_LOC,PUB_NOT,PUB_ORDIN,PUB_PHYS,PUB_PROGR,PUB_QUAL,PUB_REPRO,PUB_TARGET,PUB_THEM14",
+              "description": "#OPPSEARCH-477 - [EUVocabularies] Penalize ATTO tables in relevancy ranking",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.negative_boost_value",
+              "value": "0.8",
+              "description": "#OPPSEARCH-477 - [EUVocabularies] Penalize ATTO tables in relevancy ranking",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.negative_boost_enabled",
+              "value": "true",
+              "description": "#OPPSEARCH-477 - [EUVocabularies] Penalize ATTO tables in relevancy ranking",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.match_phrase",
+              "value": "250",
+              "description": "#relevancy",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.concept_scheme",
+              "value": "0.9",
+              "description": "#relevancy",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.concept",
+              "value": "0.8",
+              "description": "#relevancy",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.boosts.dataset",
+              "value": "1",
+              "description": "#relevancy",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.assetType.mapping",
+              "value": "0.35",
+              "description": "# since DMTDMP-38889",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.assetType.thesaurus",
+              "value": "0.63",
+              "description": "# since DMTDMP-38889",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.assetType.atto",
+              "value": "0.0000001",
+              "description": "# since DMTDMP-38889",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.assetType.nal",
+              "value": "0.7",
+              "description": "# since DMTDMP-38889",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.assetType.styles",
+              "value": "0.147",
+              "description": "# since DMTDMP-38889",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.assetType.aprof",
+              "value": "0.392",
+              "description": "# since DMTDMP-38889",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.assetType.schema",
+              "value": "0.49",
+              "description": "# since DMTDMP-38889",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.euvoc.assetType.ontology",
+              "value": "0.441",
+              "description": "# since DMTDMP-38889",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/euv/simple",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "euv",
+            "simple"
+          ]
+        },
+        "description": "The simple search allows to search only by using a simple input field.\nParameters starting with search.parameters. specifies the search configuration that can be overriden."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/euv/autocomplete",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "justice",
+              "type": "text"
+            },
+            {
+              "key": "filter.resourceType",
+              "value": "eurovoc",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.broaderConcept",
+              "value": "http://publications.europa.eu/resource/authority/position-status",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.relatedConcept",
+              "value": "http://publications.europa.eu/resource/authority/position-status",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.inScheme",
+              "value": "http://publications.europa.eu/resource/authority/position-status",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.hasPart",
+              "value": "http://publications.europa.eu/resource/authority/concept-status/CURRENT",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.isPartOf",
+              "value": "http://publications.europa.eu/resource/authority/concept-status/CURRENT",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "s",
+              "value": "5",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/euv/autocomplete",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "euv",
+            "autocomplete"
+          ]
+        },
+        "description": "The autocomplete search provides suggestion based on the input term."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/wiw/simple",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "mmjuAt9pShAxQ5YaegpPCRZkV7UJGM6R",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "op",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "Florent",
+              "type": "text"
+            },
+            {
+              "key": "p",
+              "value": "5",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "ps",
+              "value": "5",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "sort",
+              "value": "relevance,desc",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.name",
+              "value": "language",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.country.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.institution.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.status.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.classification.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.type.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.type.represent.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.type.citizenship.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.combinedPosition.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.hasGender.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection",
+              "value": "person",
+              "type": "text"
+            },
+            {
+              "key": "filter.collection.hasGender",
+              "value": "http://purl.org/linked-data/sdmx/2009/code#sex-M",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.type",
+              "value": "Official",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.type.citizenship",
+              "value": "http://publications.europa.eu/resource/authority/country/POR",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.type.represent",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.country",
+              "value": "http://publications.europa.eu/resource/authority/country/POR",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.institution",
+              "value": "http://publications.europa.eu/resource/authority/corporate-body/PUBL",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.status",
+              "value": "http://publications.europa.eu/resource/authority/concept-status/CURRENT",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.subject",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.combinedPosition.BUL",
+              "value": "Corporate Research Coordinator",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://acceptance.op.europa.eu/API/search/1.0/wiw/simple",
+          "protocol": "https",
+          "host": [
+            "acceptance",
+            "op",
+            "europa",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "wiw",
+            "simple"
+          ]
+        },
+        "description": "The simple search allows to search only by using a simple input field."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/wiw/simple boosts",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "Eurostat",
+              "type": "text"
+            },
+            {
+              "key": "ps",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.defaultBoost",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.combined_names",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.memberships_combined_organization_names",
+              "value": "7",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.combined_address",
+              "value": "3",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.memberships_combined_address",
+              "value": "3",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.memberships_combined_position",
+              "value": "4",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.memberships_represents",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.names",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.mnemonic",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.given_name",
+              "value": "8",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.family_name",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.combined_organization_label",
+              "value": "7",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.combined_position",
+              "value": "4",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.combined_names_hlan",
+              "value": "160",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.memberships_combined_organization_names_hlan",
+              "value": "7",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.memberships_combined_position_hlan",
+              "value": "4",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.memberships_represents_hlan",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.boosts.names_hlan",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.language_orders",
+              "value": "ENG,FRA,DEU,SPA,POR,ITA,POL,NLD",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.scoring_function_name",
+              "value": "wiw_scoring",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.dictionary",
+              "value": "classpath:dictionaries.yaml",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.whoiswho.debug",
+              "value": "true",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.phrase_titles",
+              "value": "100",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.phrase_descriptions",
+              "value": "5",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.phrase_contents",
+              "value": "5",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.phrase_original_authors_label",
+              "value": "20",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.phrase_current_authors_label",
+              "value": "20",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.boosts.phrase_eurovoc_subjects_label",
+              "value": "5",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.negative_boost_format_targets",
+              "value": "FOLDER,POSTCARD,BOOKMARK",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.negative_boost_format_value",
+              "value": "0.5",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.match_query.cutoff_frequency",
+              "value": "0.001",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.match_query.slop",
+              "value": "0",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.match_query.fuzziness",
+              "value": "0",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.match_query.operator",
+              "value": "or",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.match_query.minimum_should_match_enabled",
+              "value": "false",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            },
+            {
+              "key": "search.parameters.publication.match_query.minimum_should_match",
+              "value": "2",
+              "description": "# since DMTDMP-37582",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/wiw/simple",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "wiw",
+            "simple"
+          ]
+        },
+        "description": "The simple search allows to search only by using a simple input field.\nParameters starting with search.parameters. specifies the search configuration that can be overriden."
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/wiw/advanced",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "q",
+              "value": "Eurostat",
+              "type": "text"
+            },
+            {
+              "key": "q.familyName",
+              "value": "Wick",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "q.givenName",
+              "value": "John",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "q.mnemonic",
+              "value": "CEO",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "q.name",
+              "value": "Arhs-Spikeseed",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "q.combinedPosition",
+              "value": "Director",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "p",
+              "value": "5",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "ps",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "sort",
+              "value": "relevance,desc",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.name",
+              "value": "language",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.country.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.institution.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.status.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.classification.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.type.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.type.represent.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.type.citizenship.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.combinedPosition.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.hasGender.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection",
+              "value": "person",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.hasGender",
+              "value": "http://purl.org/linked-data/sdmx/2009/code#sex-M",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.type",
+              "value": "Official",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.type.citizenship",
+              "value": "http://publications.europa.eu/resource/authority/country/POR",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.type.represent",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.country",
+              "value": "http://publications.europa.eu/resource/authority/country/POR",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.institution",
+              "value": "http://publications.europa.eu/resource/authority/corporate-body/EP",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.status",
+              "value": "http://publications.europa.eu/resource/authority/concept-status/CURRENT",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.subject",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.combinedPosition.BUL",
+              "value": "Corporate Research Coordinator",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "p",
+              "value": "5",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "ps",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "hlan",
+              "value": "ENG",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "sort",
+              "value": "relevance,desc",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.name",
+              "value": "language",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.country.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.institution.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.status.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.classification.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.type.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.type.represent.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.type.citizenship.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.combinedPosition.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "facet.collection.hasGender.s",
+              "value": "2",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection",
+              "value": "person",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.hasGender",
+              "value": "http://purl.org/linked-data/sdmx/2009/code#sex-M",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.type",
+              "value": "Official",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.type.citizenship",
+              "value": "http://publications.europa.eu/resource/authority/country/POR",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.type.represent",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.country",
+              "value": "http://publications.europa.eu/resource/authority/country/POR",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.institution",
+              "value": "http://publications.europa.eu/resource/authority/corporate-body/EP",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.status",
+              "value": "http://publications.europa.eu/resource/authority/concept-status/CURRENT",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.subject",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter.collection.combinedPosition.BUL",
+              "value": "Corporate Research Coordinator",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/wiw/advanced",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "wiw",
+            "advanced"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/global/simple",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/global/simple",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "global",
+            "simple"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/search/1.0/global/advanced",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/xml",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://qfwk.op10666.eu/API/search/1.0/global/advanced",
+          "protocol": "https",
+          "host": [
+            "qfwk",
+            "op10666",
+            "eu"
+          ],
+          "path": [
+            "API",
+            "search",
+            "1.0",
+            "global",
+            "advanced"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "basic",
+    "basic": [
+      {
+        "key": "password",
+        "value": "Dg2uJqTZmGt9pNJrWW26GAhbWfhUarys",
+        "type": "string"
+      },
+      {
+        "key": "username",
+        "value": "op",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
